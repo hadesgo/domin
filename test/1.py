@@ -1,10 +1,10 @@
+# !/usr/bin/python3cd
+# -*- coding: utf-8 -*-
 '''
-* @Author: hades-li  
-* @Date: 2020-11-14 17:11:09  
-* @Last Modified by:   hades-li  
-* @Last Modified time: 2020-11-14 17:11:09
+@File    :   1.py
+@Time    :   2020/11/14 20:21:01
+@Author  :   hades-li
 '''
-#coding: UTF-8
 
 print("我是你的爸爸啊")
 print("hello world")
