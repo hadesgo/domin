@@ -5,7 +5,7 @@
 @Time    :   2020/11/14 20:51:16
 @Author  :   hades-li
 '''
-from setting import MAX_SCORE
+from settings import MAX_SCORE
 #IP代理模型类，用于封装代理IP的各种信息
 class IPitem:
     def __init__(self, ip, port, protocol = -1, nick_type = -1, speed = -1, area = None, score = MAX_SCORE, disable_domian = []):
