@@ -5,9 +5,9 @@
 @Time    :   2020/11/14 20:51:16
 @Author  :   hades-li
 '''
-from settings import MAX_SCORE
+from .settings import MAX_SCORE
 #IP代理模型类，用于封装代理IP的各种信息
-class IPitem:
+class IPitem(object):
     def __init__(self, ip, port, protocol = -1, nick_type = -1, speed = -1, area = None, score = MAX_SCORE, disable_domian = []):
         self.ip = ip    #ip
         self.port = port  #端口号
@@ -17,6 +17,6 @@ class IPitem:
         self.area = area  #代理ip所在地区
         self.score =score #代理ip的评分，初始评分为50。若ip响应失败则扣1分，扣至0分则移除ip池中
         self.disable_domian = disable_domian  #代理ip不可访问的域名
-    def _str_(self):
-        #返回数据字符串
+    def __str__(self):
+        # 返回数据字符串
         return str(self.__dict__)

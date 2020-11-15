@@ -46,7 +46,7 @@ user_agents = [
 #获取user_agent请求头
 def get_usergent():
     return {
-        'User-Agent' : random.choice(user_agents)
+        'User-Agent':random.choice(user_agents),
     }
 if __name__ == '__main__':
         print(get_usergent())

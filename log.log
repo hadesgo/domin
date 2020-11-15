@@ -1,21 +1,32 @@
-2020-11-15 16:04:22 log.py [line:60] INFO: 状态信息
-2020-11-15 16:04:22 log.py [line:61] WARNING: 警告信息
-2020-11-15 16:04:22 log.py [line:62] ERROR: 错误信息
-2020-11-15 16:04:22 log.py [line:63] CRITICAL: 严重错误信息
-2020-11-15 16:04:44 log.py [line:60] INFO: 状态信息
-2020-11-15 16:04:44 log.py [line:61] WARNING: 警告信息
-2020-11-15 16:04:44 log.py [line:62] ERROR: 错误信息
-2020-11-15 16:04:44 log.py [line:63] CRITICAL: 严重错误信息
-2020-11-15 16:48:08 log.py [line:60] INFO: 状态信息
-2020-11-15 16:48:08 log.py [line:61] WARNING: 警告信息
-2020-11-15 16:48:08 log.py [line:62] ERROR: 错误信息
-2020-11-15 16:48:08 log.py [line:63] CRITICAL: 严重错误信息
-2020-11-15 16:48:53 log.py [line:59] INFO: 状态信息
-2020-11-15 16:48:53 log.py [line:60] WARNING: 警告信息
-2020-11-15 16:48:53 log.py [line:61] ERROR: 错误信息
-2020-11-15 16:48:53 log.py [line:62] CRITICAL: 严重错误信息
-2020-11-15 16:49:24 log.py [line:58] DEBUG: 调试信息
-2020-11-15 16:49:24 log.py [line:59] INFO: 状态信息
-2020-11-15 16:49:24 log.py [line:60] WARNING: 警告信息
-2020-11-15 16:49:24 log.py [line:61] ERROR: 错误信息
-2020-11-15 16:49:24 log.py [line:62] CRITICAL: 严重错误信息
+2020-11-15 21:58:53 connectionpool.py [line:221] DEBUG: Starting new HTTP connection (1): 112.109.220.33:9999
+2020-11-15 21:59:03 connectionpool.py [line:957] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2020-11-15 21:59:13 httpbin_check.py [line:56] DEBUG: {'ip': '112.109.220.33', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domian': []}
+2020-11-15 22:01:32 connectionpool.py [line:221] DEBUG: Starting new HTTP connection (1): 183.232.53.53:80
+2020-11-15 22:01:32 connectionpool.py [line:428] DEBUG: http://183.232.53.53:80 "GET http://httpbin.org/get HTTP/1.1" 409 4733
+2020-11-15 22:01:32 connectionpool.py [line:957] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2020-11-15 22:01:33 httpbin_check.py [line:56] DEBUG: {'ip': '183.232.53.53', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domian': []}
+2020-11-15 22:01:49 connectionpool.py [line:221] DEBUG: Starting new HTTP connection (1): 183.232.53.53:80
+2020-11-15 22:01:49 connectionpool.py [line:428] DEBUG: http://183.232.53.53:80 "GET http://httpbin.org/get HTTP/1.1" 409 4733
+2020-11-15 22:01:49 connectionpool.py [line:957] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2020-11-15 22:01:50 httpbin_check.py [line:56] DEBUG: {'ip': '183.232.53.53', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domian': []}
+2020-11-15 22:03:02 connectionpool.py [line:221] DEBUG: Starting new HTTP connection (1): 183.232.53.53:80
+2020-11-15 22:03:02 connectionpool.py [line:428] DEBUG: http://183.232.53.53:80 "GET http://httpbin.org/get HTTP/1.1" 409 4733
+2020-11-15 22:03:02 connectionpool.py [line:957] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2020-11-15 22:03:02 httpbin_check.py [line:56] DEBUG: {'ip': '183.232.53.53', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domian': []}
+2020-11-15 22:04:14 connectionpool.py [line:221] DEBUG: Starting new HTTP connection (1): 183.232.53.53:80
+2020-11-15 22:04:14 connectionpool.py [line:428] DEBUG: http://183.232.53.53:80 "GET http://httpbin.org/get HTTP/1.1" 409 4733
+2020-11-15 22:04:14 connectionpool.py [line:957] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2020-11-15 22:04:15 httpbin_check.py [line:56] DEBUG: {'ip': '183.232.53.53', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domian': []}
+2020-11-15 22:08:57 connectionpool.py [line:221] DEBUG: Starting new HTTP connection (1): 183.232.53.53:80
+2020-11-15 22:08:57 connectionpool.py [line:428] DEBUG: http://183.232.53.53:80 "GET http://httpbin.org/get HTTP/1.1" 409 4733
+2020-11-15 22:08:57 connectionpool.py [line:957] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2020-11-15 22:08:57 httpbin_check.py [line:56] DEBUG: {'ip': '183.232.53.53', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domian': []}
+2020-11-15 22:11:44 connectionpool.py [line:221] DEBUG: Starting new HTTP connection (1): httpbin.org:80
+2020-11-15 22:11:45 connectionpool.py [line:428] DEBUG: http://httpbin.org:80 "GET /get HTTP/1.1" 200 401
+2020-11-15 22:11:45 connectionpool.py [line:957] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2020-11-15 22:11:46 connectionpool.py [line:428] DEBUG: https://httpbin.org:443 "GET /get HTTP/1.1" 200 385
+2020-11-15 22:11:46 httpbin_check.py [line:56] DEBUG: {'ip': '183.232.53.53', 'port': '80', 'protocol': 2, 'nick_type': 0, 'speed': 0.62, 'area': None, 'score': 50, 'disable_domian': []}
+2020-11-15 22:14:42 connectionpool.py [line:221] DEBUG: Starting new HTTP connection (1): 183.232.53.53:80
+2020-11-15 22:14:42 connectionpool.py [line:428] DEBUG: http://183.232.53.53:80 "GET http://httpbin.org/get HTTP/1.1" 409 4733
+2020-11-15 22:14:42 connectionpool.py [line:957] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2020-11-15 22:14:42 httpbin_check.py [line:56] DEBUG: {'ip': '183.232.53.53', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domian': []}
