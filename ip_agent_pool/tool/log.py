@@ -7,8 +7,11 @@
 '''
 import sys
 import logging
-sys.path.append(".."）
-from settings import LOG_DATEFMT, LOG_FILENAME, LOG_FMT, LOG_LEVEL
+from os.path import dirname, abspath
+
+path = dirname(dirname(dirname(abspath(__file__))))
+sys.path.append(path)
+from ip_agent_pool.settings import LOG_DATEFMT, LOG_FILENAME, LOG_FMT, LOG_LEVEL
 
 class Logger():
 
