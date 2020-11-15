@@ -1,4 +1,4 @@
-# !/usr/bin/python3cd
+# !/usr/bin/python3
 # -*- coding: utf-8 -*-
 '''
 @File    :   ip_model.py
