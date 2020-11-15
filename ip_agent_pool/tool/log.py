@@ -7,7 +7,7 @@
 '''
 import sys
 import logging
-sys.path.append("..")
+sys.path.append(".."）
 from settings import LOG_DATEFMT, LOG_FILENAME, LOG_FMT, LOG_LEVEL
 
 class Logger():
