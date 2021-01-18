@@ -1,10 +1,10 @@
-# !/usr/bin/python3
+# tool/http.py
 # -*- coding: utf-8 -*-
-'''
+"""
 @File    :   http.py
 @Time    :   2020/11/15 16:50:55
 @Author  :   hades-li
-'''
+"""
 import random
 
 user_agents = [
@@ -43,11 +43,15 @@ user_agents = [
     "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11",
     "Mozilla/5.0 (X11; U; Linux x86_64; zh-CN; rv:1.9.2.10) Gecko/20100922 Ubuntu/10.10 (maverick) Firefox/3.6.10"
 ]
-#获取user_agent请求头
-def get_usergent():
+
+
+# 获取user_agent请求头
+def getuser_agent():
     return {
-        'User-Agent':random.choice(user_agents),
+        'User-Agent': random.choice(user_agents),
     }
+
+
 if __name__ == '__main__':
-        print(get_usergent())
-        print(get_usergent())
+    print(getuser_agent())
+    print(getuser_agent())

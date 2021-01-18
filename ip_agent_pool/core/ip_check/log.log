@@ -1,3 +1,32 @@
 2020-11-15 21:24:51 connectionpool.py [line:221] DEBUG: Starting new HTTP connection (1): 222.94.196.105:3128
 2020-11-15 21:25:01 connectionpool.py [line:957] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
 2020-11-15 21:25:11 <ipython-input-1-cad0162c1999> [line:56] DEBUG: <ip_agent_pool.ip_model.IPitem object at 0x7f2ac83b2c40>
+2021-01-18 14:03:46 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 183.232.53.53:80
+2021-01-18 14:03:47 connectionpool.py [line:461] DEBUG: http://183.232.53.53:80 "GET http://httpbin.org/get HTTP/1.1" 409 4734
+2021-01-18 14:03:47 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-18 14:03:47 httpbin_check.py [line:51] DEBUG: {'ip': '183.232.53.53', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-18 14:06:07 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 183.196.170.247:9000
+2021-01-18 14:06:21 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-18 14:06:38 httpbin_check.py [line:51] DEBUG: {'ip': '183.196.170.247', 'port': '9000', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-18 14:07:09 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 190.122.186.218:8080
+2021-01-18 14:07:19 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-18 14:07:29 httpbin_check.py [line:51] DEBUG: {'ip': '190.122.186.218', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-18 14:09:23 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 27.214.50.39:9000
+2021-01-18 14:09:33 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-18 14:09:43 httpbin_check.py [line:51] DEBUG: {'ip': '27.214.50.39', 'port': '9000', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-18 14:13:17 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 171.221.141.182:80
+2021-01-18 14:13:27 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-18 14:13:37 httpbin_check.py [line:51] DEBUG: {'ip': '171.221.141.182', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-18 14:14:40 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 171.221.141.182:8080
+2021-01-18 14:14:50 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-18 14:15:00 httpbin_check.py [line:51] DEBUG: {'ip': '171.221.141.182', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-18 14:17:07 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 139.224.54.100:80
+2021-01-18 14:17:17 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-18 14:17:27 httpbin_check.py [line:51] DEBUG: {'ip': '139.224.54.100', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-18 14:17:43 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 139.224.54.100:8080
+2021-01-18 14:17:53 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-18 14:18:03 httpbin_check.py [line:51] DEBUG: {'ip': '139.224.54.100', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-18 14:19:25 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.115.14.41:80
+2021-01-18 14:19:26 connectionpool.py [line:461] DEBUG: http://103.115.14.41:80 "GET http://httpbin.org/get HTTP/1.1" 200 None
+2021-01-18 14:19:26 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-18 14:19:27 httpbin_check.py [line:51] DEBUG: {'ip': '103.115.14.41', 'port': '80', 'protocol': 0, 'nick_type': 0, 'speed': 1.38, 'area': None, 'score': 50, 'disable_domain': []}

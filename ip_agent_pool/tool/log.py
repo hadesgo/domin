@@ -1,25 +1,23 @@
-# !/usr/bin/python3
+# tool/log.py
 # -*- coding: utf-8 -*-
-'''
+"""
 @File    :   log.py
 @Time    :   2020/11/15 16:03:28
 @Author  :   hades-li
-'''
+"""
 import sys
-import logging
-from os.path import dirname, abspath
 
-path = dirname(dirname(dirname(abspath(__file__))))
-sys.path.append(path)
-from ip_agent_pool.settings import LOG_DATEFMT, LOG_FILENAME, LOG_FMT, LOG_LEVEL
+# 导入配置文件
+from ip_agent_pool.settings import *
 
-class Logger():
+
+class Logger(object):
 
     def __init__(self):
         # 1. 获取一个logger对象
         self._logger = logging.getLogger()
         # 2. 设置format对象
-        self.formatter = logging.Formatter(fmt=LOG_FMT,datefmt=LOG_DATEFMT)
+        self.formatter = logging.Formatter(fmt=LOG_FMT, datefmt=LOG_DATETIME)
         # 3. 设置日志输出
         # 3.1 设置文件日志模式
         self._logger.addHandler(self._get_file_handler(LOG_FILENAME))
@@ -29,16 +27,16 @@ class Logger():
         self._logger.setLevel(LOG_LEVEL)
 
     def _get_file_handler(self, filename):
-        '''返回一个文件日志handler'''
+        """返回一个文件日志handler"""
         # 1. 获取一个文件日志handler
-        filehandler = logging.FileHandler(filename=filename,encoding="utf-8")
+        file_handler = logging.FileHandler(filename=filename, encoding="utf-8")
         # 2. 设置日志格式
-        filehandler.setFormatter(self.formatter)
+        file_handler.setFormatter(self.formatter)
         # 3. 返回
-        return filehandler
+        return file_handler
 
     def _get_console_handler(self):
-        '''返回一个输出到终端日志handler'''
+        """返回一个输出到终端日志handler"""
         # 1. 获取一个输出到终端日志handler
         console_handler = logging.StreamHandler(sys.stdout)
         # 2. 设置日志格式
@@ -49,6 +47,7 @@ class Logger():
     @property
     def logger(self):
         return self._logger
+
 
 # 初始化并配一个logger对象，达到单例的
 # 使用时，直接导入logger就可以使用

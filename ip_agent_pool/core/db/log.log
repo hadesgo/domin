@@ -1,0 +1,10 @@
+2021-01-18 23:59:56 mysql_pool.py [line:31] WARNING: 已经存在的代理:{'ip': '202.104.113.35', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-19 00:00:20 mysql_pool.py [line:31] WARNING: 已经存在的代理:{'ip': '202.104.113.36', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-19 00:01:22 mysql_pool.py [line:31] WARNING: 已经存在的代理:{'ip': '202.104.113.36', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-19 00:03:50 mysql_pool.py [line:31] WARNING: 已经存在的代理:{'ip': '202.104.113.36', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-19 00:04:26 mysql_pool.py [line:31] WARNING: 已经存在的代理:{'ip': '202.104.113.36', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-19 00:08:07 mysql_pool.py [line:31] WARNING: 已经存在的代理:{'ip': '202.104.113.36', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-19 00:08:52 mysql_pool.py [line:31] WARNING: 已经存在的代理:{'ip': '202.104.113.36', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-19 00:09:19 mysql_pool.py [line:29] INFO: 插入新的代理:{'ip': '202.104.113.36', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-19 00:10:35 mysql_pool.py [line:31] WARNING: 已经存在的代理:{'ip': '202.104.113.36', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domain': []}
+2021-01-19 00:31:33 mysql_pool.py [line:29] INFO: 插入新的代理:{'ip': '202.104.113.35', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50}
