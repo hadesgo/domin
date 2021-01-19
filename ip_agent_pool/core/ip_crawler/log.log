@@ -1,0 +1,945 @@
+2021-01-19 23:02:43 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): www.66ip.cn:80
+2021-01-19 23:02:43 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): www.ip3366.net:80
+2021-01-19 23:02:43 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): list.proxylistplus.com:443
+2021-01-19 23:02:43 connectionpool.py [line:461] DEBUG: http://www.66ip.cn:80 "GET /1.html HTTP/1.1" 200 9183
+2021-01-19 23:02:44 connectionpool.py [line:461] DEBUG: http://www.ip3366.net:80 "GET /free/?stype=1&page=1 HTTP/1.1" 200 5318
+2021-01-19 23:02:44 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 60.169.134.1:9999
+2021-01-19 23:02:45 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-19 23:02:54 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:02:55 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:03:04 httpbin_check.py [line:53] DEBUG: {'ip': '60.169.134.1', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_安徽省芜湖市电信', 'score': 50}
+2021-01-19 23:03:04 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 218.62.124.120:9999
+2021-01-19 23:03:05 connectionpool.py [line:461] DEBUG: https://list.proxylistplus.com:443 "GET /Fresh-HTTP-Proxy-List-1 HTTP/1.1" 200 None
+2021-01-19 23:03:06 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 50}
+2021-01-19 23:03:06 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.148.210.110:8080
+2021-01-19 23:03:14 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:03:18 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:03:24 httpbin_check.py [line:53] DEBUG: {'ip': '218.62.124.120', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '吉林省白山市', 'score': 50}
+2021-01-19 23:03:24 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 223.243.245.112:9999
+2021-01-19 23:03:28 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 110.77.134.112:8080
+2021-01-19 23:03:28 httpbin_check.py [line:53] DEBUG: {'ip': '103.148.210.110', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '亚太地区', 'score': 50}
+2021-01-19 23:03:28 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 182.253.140.250:8080
+2021-01-19 23:03:34 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:03:38 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:03:38 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:03:44 httpbin_check.py [line:53] DEBUG: {'ip': '223.243.245.112', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_安徽省芜湖市电信', 'score': 50}
+2021-01-19 23:03:44 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 222.189.191.200:9999
+2021-01-19 23:03:48 httpbin_check.py [line:53] DEBUG: {'ip': '110.77.134.112', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Thailand', 'score': 50}
+2021-01-19 23:03:48 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 178.19.97.1:8088
+2021-01-19 23:03:48 httpbin_check.py [line:53] DEBUG: {'ip': '182.253.140.250', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '印度尼西亚', 'score': 50}
+2021-01-19 23:03:48 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 193.233.9.167:57625
+2021-01-19 23:03:54 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:03:56 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:03:58 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:04:04 httpbin_check.py [line:53] DEBUG: {'ip': '222.189.191.200', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_江苏省扬州市电信', 'score': 50}
+2021-01-19 23:04:04 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 49.89.103.90:9999
+2021-01-19 23:04:06 httpbin_check.py [line:53] DEBUG: {'ip': '178.19.97.1', 'port': '8088', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Poland', 'score': 50}
+2021-01-19 23:04:06 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 71.41.27.245:8080
+2021-01-19 23:04:08 httpbin_check.py [line:53] DEBUG: {'ip': '193.233.9.167', 'port': '57625', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 50}
+2021-01-19 23:04:08 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 120.83.108.3:9999
+2021-01-19 23:04:14 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:04:16 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:04:18 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:04:24 httpbin_check.py [line:53] DEBUG: {'ip': '49.89.103.90', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_江苏省宿迁市电信', 'score': 50}
+2021-01-19 23:04:24 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 49.86.9.21:9999
+2021-01-19 23:04:24 connectionpool.py [line:461] DEBUG: http://49.86.9.21:9999 "GET http://httpbin.org/get HTTP/1.1" 403 3839
+2021-01-19 23:04:24 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:04:25 httpbin_check.py [line:53] DEBUG: {'ip': '49.86.9.21', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_江苏省扬州市电信', 'score': 50}
+2021-01-19 23:04:25 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 49.89.87.181:9999
+2021-01-19 23:04:26 httpbin_check.py [line:53] DEBUG: {'ip': '71.41.27.245', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'United States', 'score': 50}
+2021-01-19 23:04:26 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 176.106.120.82:8080
+2021-01-19 23:04:28 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:04:28 httpbin_check.py [line:53] DEBUG: {'ip': '120.83.108.3', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '广东省揭阳市普宁市', 'score': 50}
+2021-01-19 23:04:28 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-19 23:04:36 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:04:38 httpbin_check.py [line:53] DEBUG: {'ip': '49.89.87.181', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_江苏省宿迁市电信', 'score': 50}
+2021-01-19 23:04:38 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 49.70.17.233:9999
+2021-01-19 23:04:38 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:04:46 httpbin_check.py [line:53] DEBUG: {'ip': '176.106.120.82', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Serbia', 'score': 50}
+2021-01-19 23:04:46 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 190.104.170.234:8080
+2021-01-19 23:04:48 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:04:48 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': '42579', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-19 23:04:48 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 115.221.247.205:9999
+2021-01-19 23:04:51 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:04:54 httpbin_check.py [line:53] DEBUG: {'ip': '115.221.247.205', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '浙江省温州市', 'score': 50}
+2021-01-19 23:04:55 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 179.49.112.158:999
+2021-01-19 23:04:56 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:04:58 httpbin_check.py [line:53] DEBUG: {'ip': '49.70.17.233', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '江苏省宿迁市', 'score': 50}
+2021-01-19 23:04:58 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 60.174.190.176:9999
+2021-01-19 23:05:05 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:05:06 httpbin_check.py [line:53] DEBUG: {'ip': '190.104.170.234', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Paraguay', 'score': 50}
+2021-01-19 23:05:06 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 203.160.163.58:8080
+2021-01-19 23:05:08 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:05:16 httpbin_check.py [line:53] DEBUG: {'ip': '179.49.112.158', 'port': '999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '洪都拉斯', 'score': 50}
+2021-01-19 23:05:16 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 107.178.9.186:8080
+2021-01-19 23:05:16 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:05:18 httpbin_check.py [line:53] DEBUG: {'ip': '60.174.190.176', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '安徽省马鞍山市', 'score': 50}
+2021-01-19 23:05:18 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 223.242.224.113:9999
+2021-01-19 23:05:26 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:05:26 httpbin_check.py [line:53] DEBUG: {'ip': '203.160.163.58', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Philippines', 'score': 50}
+2021-01-19 23:05:26 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 75.134.84.195:8080
+2021-01-19 23:05:28 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:05:36 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:05:38 httpbin_check.py [line:53] DEBUG: {'ip': '223.242.224.113', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '安徽省安庆市', 'score': 50}
+2021-01-19 23:05:38 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 223.215.18.61:9999
+2021-01-19 23:05:45 httpbin_check.py [line:53] DEBUG: {'ip': '107.178.9.186', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '北美地区', 'score': 50}
+2021-01-19 23:05:45 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 124.94.187.0:9999
+2021-01-19 23:05:46 httpbin_check.py [line:53] DEBUG: {'ip': '75.134.84.195', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'United States', 'score': 50}
+2021-01-19 23:05:46 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 182.180.154.47:3128
+2021-01-19 23:05:48 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:05:55 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:05:56 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:05:58 httpbin_check.py [line:53] DEBUG: {'ip': '223.215.18.61', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_安徽省电信', 'score': 50}
+2021-01-19 23:05:58 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 49.70.95.15:9999
+2021-01-19 23:06:05 httpbin_check.py [line:53] DEBUG: {'ip': '124.94.187.0', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '辽宁省辽阳市', 'score': 50}
+2021-01-19 23:06:05 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 124.158.179.13:8080
+2021-01-19 23:06:06 httpbin_check.py [line:53] DEBUG: {'ip': '182.180.154.47', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Pakistan', 'score': 50}
+2021-01-19 23:06:06 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 23.95.43.171:3128
+2021-01-19 23:06:08 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:06:15 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:06:16 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:06:18 httpbin_check.py [line:53] DEBUG: {'ip': '49.70.95.15', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_江苏省宿迁市电信', 'score': 50}
+2021-01-19 23:06:18 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 223.247.169.252:9999
+2021-01-19 23:06:25 httpbin_check.py [line:53] DEBUG: {'ip': '124.158.179.13', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '印度尼西亚', 'score': 50}
+2021-01-19 23:06:25 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.221.254.102:48146
+2021-01-19 23:06:26 httpbin_check.py [line:53] DEBUG: {'ip': '23.95.43.171', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'United States', 'score': 50}
+2021-01-19 23:06:26 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 82.192.30.238:8080
+2021-01-19 23:06:29 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:06:35 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:06:36 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:06:39 httpbin_check.py [line:53] DEBUG: {'ip': '223.247.169.252', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_安徽省淮北市电信', 'score': 50}
+2021-01-19 23:06:39 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 60.169.134.96:9999
+2021-01-19 23:06:45 httpbin_check.py [line:53] DEBUG: {'ip': '103.221.254.102', 'port': '48146', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '亚太地区', 'score': 50}
+2021-01-19 23:06:45 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): www.66ip.cn:80
+2021-01-19 23:06:45 connectionpool.py [line:461] DEBUG: http://www.66ip.cn:80 "GET /2.html HTTP/1.1" 200 9219
+2021-01-19 23:06:46 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 213.14.6.5:8080
+2021-01-19 23:06:46 httpbin_check.py [line:53] DEBUG: {'ip': '82.192.30.238', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Austria', 'score': 50}
+2021-01-19 23:06:46 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 198.23.143.27:8080
+2021-01-19 23:06:49 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:06:56 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:06:56 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:06:59 httpbin_check.py [line:53] DEBUG: {'ip': '60.169.134.96', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '安徽省芜湖市', 'score': 50}
+2021-01-19 23:06:59 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 60.169.134.48:9999
+2021-01-19 23:07:06 httpbin_check.py [line:53] DEBUG: {'ip': '213.14.6.5', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '土耳其', 'score': 50}
+2021-01-19 23:07:06 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 113.121.242.26:29410
+2021-01-19 23:07:06 httpbin_check.py [line:53] DEBUG: {'ip': '198.23.143.27', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'United States', 'score': 50}
+2021-01-19 23:07:06 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 190.186.42.124:8080
+2021-01-19 23:07:09 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:07:16 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:07:16 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:07:19 httpbin_check.py [line:53] DEBUG: {'ip': '60.169.134.48', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '安徽省芜湖市', 'score': 50}
+2021-01-19 23:07:19 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): www.ip3366.net:80
+2021-01-19 23:07:20 connectionpool.py [line:461] DEBUG: http://www.ip3366.net:80 "GET /free/?stype=3&page=1 HTTP/1.1" 200 5337
+2021-01-19 23:07:20 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 5.167.14.236:8080
+2021-01-19 23:07:26 httpbin_check.py [line:53] DEBUG: {'ip': '113.121.242.26', 'port': '29410', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '山东省德州市', 'score': 50}
+2021-01-19 23:07:26 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 190.85.115.78:3128
+2021-01-19 23:07:26 httpbin_check.py [line:53] DEBUG: {'ip': '190.186.42.124', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Bolivia', 'score': 50}
+2021-01-19 23:07:26 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 36.66.34.10:8080
+2021-01-19 23:07:30 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:07:32 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:07:36 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:07:40 httpbin_check.py [line:53] DEBUG: {'ip': '5.167.14.236', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 50}
+2021-01-19 23:07:40 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 203.130.152.58:3128
+2021-01-19 23:07:42 httpbin_check.py [line:53] DEBUG: {'ip': '36.66.34.10', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:07:42 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 84.22.46.25:8080
+2021-01-19 23:07:44 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:07:46 httpbin_check.py [line:53] DEBUG: {'ip': '190.85.115.78', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '哥伦比亚', 'score': 50}
+2021-01-19 23:07:46 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 201.87.244.229:8080
+2021-01-19 23:07:49 httpbin_check.py [line:53] DEBUG: {'ip': '203.130.152.58', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_泰国', 'score': 50}
+2021-01-19 23:07:49 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 5.76.191.11:3133
+2021-01-19 23:07:52 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:07:56 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:07:59 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:08:02 httpbin_check.py [line:53] DEBUG: {'ip': '84.22.46.25', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Serbia', 'score': 50}
+2021-01-19 23:08:02 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.19.109.186:8088
+2021-01-19 23:08:06 httpbin_check.py [line:53] DEBUG: {'ip': '201.87.244.229', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-19 23:08:06 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 201.62.56.49:35816
+2021-01-19 23:08:09 httpbin_check.py [line:53] DEBUG: {'ip': '5.76.191.11', 'port': '3133', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_哈萨克斯坦', 'score': 50}
+2021-01-19 23:08:09 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 206.189.181.87:8888
+2021-01-19 23:08:12 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:08:19 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:08:19 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:08:22 httpbin_check.py [line:53] DEBUG: {'ip': '103.19.109.186', 'port': '8088', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:08:22 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 61.90.41.97:8888
+2021-01-19 23:08:24 httpbin_check.py [line:53] DEBUG: {'ip': '206.189.181.87', 'port': '8888', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_美国', 'score': 50}
+2021-01-19 23:08:24 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 45.175.182.135:8080
+2021-01-19 23:08:29 httpbin_check.py [line:53] DEBUG: {'ip': '201.62.56.49', 'port': '35816', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-19 23:08:29 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 121.211.254.46:8080
+2021-01-19 23:08:32 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:08:34 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:08:39 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:08:42 httpbin_check.py [line:53] DEBUG: {'ip': '61.90.41.97', 'port': '8888', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Thailand', 'score': 50}
+2021-01-19 23:08:42 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 176.123.129.14:8080
+2021-01-19 23:08:44 httpbin_check.py [line:53] DEBUG: {'ip': '45.175.182.135', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_美国', 'score': 50}
+2021-01-19 23:08:44 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 36.90.34.92:8080
+2021-01-19 23:08:52 httpbin_check.py [line:53] DEBUG: {'ip': '121.211.254.46', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '澳大利亚', 'score': 50}
+2021-01-19 23:08:52 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 114.4.246.86:8080
+2021-01-19 23:08:52 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:08:59 httpbin_check.py [line:53] DEBUG: {'ip': '176.123.129.14', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Russian Federation', 'score': 50}
+2021-01-19 23:08:59 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 46.39.192.48:8080
+2021-01-19 23:09:02 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:09:03 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:09:09 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:09:12 httpbin_check.py [line:53] DEBUG: {'ip': '114.4.246.86', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '印度尼西亚', 'score': 50}
+2021-01-19 23:09:12 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 202.191.96.139:8080
+2021-01-19 23:09:13 httpbin_check.py [line:53] DEBUG: {'ip': '36.90.34.92', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_印度尼西亚', 'score': 50}
+2021-01-19 23:09:13 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 85.214.244.137:80
+2021-01-19 23:09:19 httpbin_check.py [line:53] DEBUG: {'ip': '46.39.192.48', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Spain', 'score': 50}
+2021-01-19 23:09:19 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.247.101.102:8080
+2021-01-19 23:09:22 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:09:23 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:09:29 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:09:32 httpbin_check.py [line:53] DEBUG: {'ip': '202.191.96.139', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '澳大利亚', 'score': 50}
+2021-01-19 23:09:32 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 86.123.166.109:8080
+2021-01-19 23:09:34 httpbin_check.py [line:53] DEBUG: {'ip': '85.214.244.137', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_德国', 'score': 50}
+2021-01-19 23:09:34 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 206.189.154.217:8080
+2021-01-19 23:09:39 httpbin_check.py [line:53] DEBUG: {'ip': '103.247.101.102', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:09:39 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.4.66.45:8080
+2021-01-19 23:09:42 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:09:44 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:09:49 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:09:53 httpbin_check.py [line:53] DEBUG: {'ip': '86.123.166.109', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '罗马尼亚', 'score': 50}
+2021-01-19 23:09:53 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 120.83.108.214:9999
+2021-01-19 23:09:54 httpbin_check.py [line:53] DEBUG: {'ip': '206.189.154.217', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_新加坡', 'score': 50}
+2021-01-19 23:09:54 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 45.6.228.158:8080
+2021-01-19 23:09:57 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:09:59 httpbin_check.py [line:53] DEBUG: {'ip': '103.4.66.45', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Bangladesh', 'score': 50}
+2021-01-19 23:09:59 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 202.56.160.110:8080
+2021-01-19 23:09:59 httpbin_check.py [line:53] DEBUG: {'ip': '120.83.108.214', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '广东省揭阳市普宁市', 'score': 50}
+2021-01-19 23:09:59 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 178.128.63.189:3128
+2021-01-19 23:10:04 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:10:09 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:10:09 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:10:14 httpbin_check.py [line:53] DEBUG: {'ip': '45.6.228.158', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_巴西', 'score': 50}
+2021-01-19 23:10:14 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 41.60.238.98:8080
+2021-01-19 23:10:19 httpbin_check.py [line:53] DEBUG: {'ip': '202.56.160.110', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:10:19 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 78.189.178.224:80
+2021-01-19 23:10:19 httpbin_check.py [line:53] DEBUG: {'ip': '178.128.63.189', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '希腊', 'score': 50}
+2021-01-19 23:10:19 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 138.59.150.198:8080
+2021-01-19 23:10:24 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:10:26 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:10:29 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:10:34 httpbin_check.py [line:53] DEBUG: {'ip': '41.60.238.98', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_肯尼亚', 'score': 50}
+2021-01-19 23:10:34 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 203.150.113.54:8080
+2021-01-19 23:10:36 httpbin_check.py [line:53] DEBUG: {'ip': '138.59.150.198', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '北美地区', 'score': 50}
+2021-01-19 23:10:36 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): www.66ip.cn:80
+2021-01-19 23:10:36 connectionpool.py [line:461] DEBUG: http://www.66ip.cn:80 "GET /3.html HTTP/1.1" 200 9239
+2021-01-19 23:10:37 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 45.76.111.235:3128
+2021-01-19 23:10:39 httpbin_check.py [line:53] DEBUG: {'ip': '78.189.178.224', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Turkey', 'score': 50}
+2021-01-19 23:10:39 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 186.19.175.6:3128
+2021-01-19 23:10:43 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:10:44 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:10:47 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:10:53 httpbin_check.py [line:53] DEBUG: {'ip': '186.19.175.6', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Argentina', 'score': 50}
+2021-01-19 23:10:53 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.246.1.101:8080
+2021-01-19 23:10:57 httpbin_check.py [line:53] DEBUG: {'ip': '45.76.111.235', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'IANA', 'score': 50}
+2021-01-19 23:10:57 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 194.44.52.225:8080
+2021-01-19 23:10:58 httpbin_check.py [line:53] DEBUG: {'ip': '203.150.113.54', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_泰国', 'score': 50}
+2021-01-19 23:10:58 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 203.150.128.25:8080
+2021-01-19 23:11:03 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:11:07 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:11:08 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:11:13 httpbin_check.py [line:53] DEBUG: {'ip': '103.246.1.101', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:11:13 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 119.18.153.18:8080
+2021-01-19 23:11:17 httpbin_check.py [line:53] DEBUG: {'ip': '194.44.52.225', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '乌克兰', 'score': 50}
+2021-01-19 23:11:17 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 223.243.175.145:9999
+2021-01-19 23:11:18 httpbin_check.py [line:53] DEBUG: {'ip': '203.150.128.25', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_泰国', 'score': 50}
+2021-01-19 23:11:18 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 195.190.123.236:8080
+2021-01-19 23:11:18 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:11:27 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:11:27 connectionpool.py [line:461] DEBUG: http://195.190.123.236:8080 "GET http://httpbin.org/get HTTP/1.1" 200 393
+2021-01-19 23:11:27 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:11:28 httpbin_check.py [line:53] DEBUG: {'ip': '119.18.153.18', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:11:28 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 125.209.73.57:8080
+2021-01-19 23:11:37 httpbin_check.py [line:53] DEBUG: {'ip': '223.243.175.145', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '安徽省芜湖市芜湖县', 'score': 50}
+2021-01-19 23:11:37 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 177.70.243.29:8080
+2021-01-19 23:11:37 httpbin_check.py [line:53] DEBUG: {'ip': '195.190.123.236', 'port': '8080', 'protocol': 0, 'nick_type': 0, 'speed': 9.0, 'area': 'SSL高匿_俄罗斯', 'score': 50}
+2021-01-19 23:11:38 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:11:46 httpbin_check.py [line:53] DEBUG: {'ip': '125.209.73.57', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Pakistan', 'score': 50}
+2021-01-19 23:11:46 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 186.101.113.234:8080
+2021-01-19 23:11:47 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:11:56 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:11:57 httpbin_check.py [line:53] DEBUG: {'ip': '177.70.243.29', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-19 23:11:57 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 123.171.42.252:8888
+2021-01-19 23:11:59 run_crawler.py [line:47] ERROR: (0, '')
+Traceback (most recent call last):
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 732, in _read_bytes
+    data = self._rfile.read(num_bytes)
+  File "D:\Learning software\Python\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "D:\Learning software\Python\lib\site-packages\gevent\_socketcommon.py", line 688, in recv_into
+    return self._sock.recv_into(*args)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 23, in insert
+    self.cursor.execute(sql)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 740, in _read_bytes
+    "Lost connection to MySQL server during query (%s)" % (e,),
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([WinError 10054] 远程主机强迫关闭了一个现有的连接。)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_crawler/run_crawler.py", line 45, in _run_one_crawler
+    self.ip_pool.insert(proxy)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 26, in insert
+    self.db.rollback()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 479, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2021-01-19 23:12:00 run_crawler.py [line:48] ERROR: 爬虫<ip_agent_pool.core.ip_crawler.ipweb_crawler.Ip3366Crawler object at 0x0000017FC26E13C8> 出现错误
+Traceback (most recent call last):
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 732, in _read_bytes
+    data = self._rfile.read(num_bytes)
+  File "D:\Learning software\Python\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "D:\Learning software\Python\lib\site-packages\gevent\_socketcommon.py", line 688, in recv_into
+    return self._sock.recv_into(*args)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 23, in insert
+    self.cursor.execute(sql)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 740, in _read_bytes
+    "Lost connection to MySQL server during query (%s)" % (e,),
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([WinError 10054] 远程主机强迫关闭了一个现有的连接。)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_crawler/run_crawler.py", line 45, in _run_one_crawler
+    self.ip_pool.insert(proxy)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 26, in insert
+    self.db.rollback()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 479, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2021-01-19 23:12:06 httpbin_check.py [line:53] DEBUG: {'ip': '186.101.113.234', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Ecuador', 'score': 50}
+2021-01-19 23:12:06 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 36.66.242.10:8080
+2021-01-19 23:12:07 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:12:16 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:12:17 httpbin_check.py [line:53] DEBUG: {'ip': '123.171.42.252', 'port': '8888', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '山东省聊城市', 'score': 50}
+2021-01-19 23:12:17 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 36.249.119.47:9999
+2021-01-19 23:12:26 httpbin_check.py [line:53] DEBUG: {'ip': '36.66.242.10', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:12:26 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 180.250.100.66:3128
+2021-01-19 23:12:27 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:12:36 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:12:37 httpbin_check.py [line:53] DEBUG: {'ip': '36.249.119.47', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '福建省泉州市', 'score': 50}
+2021-01-19 23:12:37 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 171.35.166.44:9999
+2021-01-19 23:12:42 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:12:46 httpbin_check.py [line:53] DEBUG: {'ip': '180.250.100.66', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:12:46 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 94.154.222.95:8080
+2021-01-19 23:12:52 httpbin_check.py [line:53] DEBUG: {'ip': '171.35.166.44', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '江西省抚州市', 'score': 50}
+2021-01-19 23:12:52 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 59.36.10.79:3128
+2021-01-19 23:12:54 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:12:54 httpbin_check.py [line:53] DEBUG: {'ip': '59.36.10.79', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '广东省东莞市', 'score': 50}
+2021-01-19 23:12:54 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 175.42.122.240:9999
+2021-01-19 23:12:56 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:13:04 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:13:06 httpbin_check.py [line:53] DEBUG: {'ip': '94.154.222.95', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Ukraine', 'score': 50}
+2021-01-19 23:13:06 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 80.188.135.10:8080
+2021-01-19 23:13:14 httpbin_check.py [line:53] DEBUG: {'ip': '175.42.122.240', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '福建省宁德市', 'score': 50}
+2021-01-19 23:13:14 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.103.161.10:8080
+2021-01-19 23:13:16 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:13:20 connectionpool.py [line:461] DEBUG: http://103.103.161.10:8080 "GET http://httpbin.org/get HTTP/1.1" 200 442
+2021-01-19 23:13:20 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:13:26 httpbin_check.py [line:53] DEBUG: {'ip': '80.188.135.10', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Czech Republic', 'score': 50}
+2021-01-19 23:13:26 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 83.241.46.175:8080
+2021-01-19 23:13:30 httpbin_check.py [line:53] DEBUG: {'ip': '103.103.161.10', 'port': '8080', 'protocol': 0, 'nick_type': 2, 'speed': 6.64, 'area': '亚太地区', 'score': 50}
+2021-01-19 23:13:30 run_crawler.py [line:47] ERROR: (0, '')
+Traceback (most recent call last):
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 23, in insert
+    self.cursor.execute(sql)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_crawler/run_crawler.py", line 45, in _run_one_crawler
+    self.ip_pool.insert(proxy)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 26, in insert
+    self.db.rollback()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 479, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2021-01-19 23:13:30 run_crawler.py [line:48] ERROR: 爬虫<ip_agent_pool.core.ip_crawler.ipweb_crawler.Ip66Crawler object at 0x0000017FC26E1358> 出现错误
+Traceback (most recent call last):
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 23, in insert
+    self.cursor.execute(sql)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_crawler/run_crawler.py", line 45, in _run_one_crawler
+    self.ip_pool.insert(proxy)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 26, in insert
+    self.db.rollback()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 479, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2021-01-19 23:13:37 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:13:47 httpbin_check.py [line:53] DEBUG: {'ip': '83.241.46.175', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Latvia', 'score': 50}
+2021-01-19 23:13:47 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 104.236.156.162:80
+2021-01-19 23:17:04 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): www.66ip.cn:80
+2021-01-19 23:17:04 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): www.ip3366.net:80
+2021-01-19 23:17:04 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): list.proxylistplus.com:443
+2021-01-19 23:17:04 connectionpool.py [line:461] DEBUG: http://www.66ip.cn:80 "GET /1.html HTTP/1.1" 200 9183
+2021-01-19 23:17:04 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-19 23:17:04 connectionpool.py [line:461] DEBUG: http://www.ip3366.net:80 "GET /free/?stype=1&page=1 HTTP/1.1" 200 5361
+2021-01-19 23:17:04 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 61.145.49.109:9999
+2021-01-19 23:17:10 connectionpool.py [line:461] DEBUG: http://91.224.182.49:8080 "GET http://httpbin.org/get HTTP/1.1" 200 429
+2021-01-19 23:17:10 connectionpool.py [line:461] DEBUG: https://list.proxylistplus.com:443 "GET /Fresh-HTTP-Proxy-List-1 HTTP/1.1" 200 None
+2021-01-19 23:17:13 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 110.77.134.112:8080
+2021-01-19 23:17:14 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:17:15 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:17:22 httpbin_check.py [line:53] DEBUG: {'ip': '61.145.49.109', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '广东省江门市恩平市', 'score': 50}
+2021-01-19 23:17:22 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 27.157.253.54:9999
+2021-01-19 23:17:23 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:17:25 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': '8080', 'protocol': 0, 'nick_type': 2, 'speed': 10.91, 'area': '俄罗斯', 'score': 50}
+2021-01-19 23:17:25 mysql_pool.py [line:29] INFO: 插入新的代理:{'ip': '91.224.182.49', 'port': '8080', 'protocol': 0, 'nick_type': 2, 'speed': 10.91, 'area': '俄罗斯', 'score': 50}
+2021-01-19 23:17:25 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.148.210.110:8080
+2021-01-19 23:17:33 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:17:33 httpbin_check.py [line:53] DEBUG: {'ip': '110.77.134.112', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Thailand', 'score': 50}
+2021-01-19 23:17:33 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 178.19.97.1:8088
+2021-01-19 23:17:40 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:17:43 httpbin_check.py [line:53] DEBUG: {'ip': '27.157.253.54', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '福建省南平市', 'score': 50}
+2021-01-19 23:17:43 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 222.132.224.71:9999
+2021-01-19 23:17:43 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:17:51 httpbin_check.py [line:53] DEBUG: {'ip': '103.148.210.110', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '亚太地区', 'score': 50}
+2021-01-19 23:17:51 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 182.253.140.250:8080
+2021-01-19 23:17:53 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:17:53 httpbin_check.py [line:53] DEBUG: {'ip': '178.19.97.1', 'port': '8088', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Poland', 'score': 50}
+2021-01-19 23:17:53 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 71.41.27.245:8080
+2021-01-19 23:18:01 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:18:03 httpbin_check.py [line:53] DEBUG: {'ip': '222.132.224.71', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '山东省临沂市', 'score': 50}
+2021-01-19 23:18:03 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 58.19.83.254:9999
+2021-01-19 23:18:03 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:18:11 httpbin_check.py [line:53] DEBUG: {'ip': '182.253.140.250', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '印度尼西亚', 'score': 50}
+2021-01-19 23:18:11 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 193.233.9.167:57625
+2021-01-19 23:18:13 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:18:13 httpbin_check.py [line:53] DEBUG: {'ip': '71.41.27.245', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'United States', 'score': 50}
+2021-01-19 23:18:13 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 176.106.120.82:8080
+2021-01-19 23:18:21 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:18:23 httpbin_check.py [line:53] DEBUG: {'ip': '58.19.83.254', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_湖北省武汉市联通', 'score': 50}
+2021-01-19 23:18:23 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 42.59.119.240:9999
+2021-01-19 23:18:23 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:18:31 httpbin_check.py [line:53] DEBUG: {'ip': '193.233.9.167', 'port': '57625', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 50}
+2021-01-19 23:18:31 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 120.83.108.3:9999
+2021-01-19 23:18:33 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:18:33 httpbin_check.py [line:53] DEBUG: {'ip': '176.106.120.82', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Serbia', 'score': 50}
+2021-01-19 23:18:33 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 190.104.170.234:8080
+2021-01-19 23:18:41 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:18:43 httpbin_check.py [line:53] DEBUG: {'ip': '42.59.119.240', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_辽宁省联通', 'score': 50}
+2021-01-19 23:18:43 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 60.169.134.1:9999
+2021-01-19 23:18:43 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:18:51 httpbin_check.py [line:53] DEBUG: {'ip': '120.83.108.3', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '广东省揭阳市普宁市', 'score': 50}
+2021-01-19 23:18:51 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-19 23:18:53 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:18:53 httpbin_check.py [line:53] DEBUG: {'ip': '190.104.170.234', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Paraguay', 'score': 50}
+2021-01-19 23:18:53 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 203.160.163.58:8080
+2021-01-19 23:19:01 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:19:03 httpbin_check.py [line:53] DEBUG: {'ip': '60.169.134.1', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_安徽省芜湖市电信', 'score': 50}
+2021-01-19 23:19:03 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 218.62.124.120:9999
+2021-01-19 23:19:03 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:19:11 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': '42579', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-19 23:19:11 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 115.221.247.205:9999
+2021-01-19 23:19:13 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:19:13 httpbin_check.py [line:53] DEBUG: {'ip': '203.160.163.58', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Philippines', 'score': 50}
+2021-01-19 23:19:13 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 75.134.84.195:8080
+2021-01-19 23:19:21 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:19:23 httpbin_check.py [line:53] DEBUG: {'ip': '218.62.124.120', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '吉林省白山市', 'score': 50}
+2021-01-19 23:19:23 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 223.243.245.112:9999
+2021-01-19 23:19:23 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:19:31 httpbin_check.py [line:53] DEBUG: {'ip': '115.221.247.205', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '浙江省温州市', 'score': 50}
+2021-01-19 23:19:31 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 179.49.112.158:999
+2021-01-19 23:19:33 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:19:33 httpbin_check.py [line:53] DEBUG: {'ip': '75.134.84.195', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'United States', 'score': 50}
+2021-01-19 23:19:33 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 182.180.154.47:3128
+2021-01-19 23:19:39 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:19:42 connectionpool.py [line:461] DEBUG: http://179.49.112.158:999 "GET http://httpbin.org/get HTTP/1.1" 403 520
+2021-01-19 23:19:42 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:19:43 httpbin_check.py [line:53] DEBUG: {'ip': '223.243.245.112', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_安徽省芜湖市电信', 'score': 50}
+2021-01-19 23:19:43 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 222.189.191.200:9999
+2021-01-19 23:19:46 httpbin_check.py [line:53] DEBUG: {'ip': '182.180.154.47', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Pakistan', 'score': 50}
+2021-01-19 23:19:46 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 23.95.43.171:3128
+2021-01-19 23:19:53 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:19:53 httpbin_check.py [line:53] DEBUG: {'ip': '179.49.112.158', 'port': '999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '洪都拉斯', 'score': 50}
+2021-01-19 23:19:53 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 107.178.9.186:8080
+2021-01-19 23:19:56 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:20:03 httpbin_check.py [line:53] DEBUG: {'ip': '222.189.191.200', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_江苏省扬州市电信', 'score': 50}
+2021-01-19 23:20:03 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 49.89.103.90:9999
+2021-01-19 23:20:03 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:20:06 httpbin_check.py [line:53] DEBUG: {'ip': '23.95.43.171', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'United States', 'score': 50}
+2021-01-19 23:20:06 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 82.192.30.238:8080
+2021-01-19 23:20:13 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:20:13 httpbin_check.py [line:53] DEBUG: {'ip': '107.178.9.186', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '北美地区', 'score': 50}
+2021-01-19 23:20:13 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 124.94.187.0:9999
+2021-01-19 23:20:16 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:20:23 httpbin_check.py [line:53] DEBUG: {'ip': '49.89.103.90', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_江苏省宿迁市电信', 'score': 50}
+2021-01-19 23:20:23 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 49.86.9.21:9999
+2021-01-19 23:20:23 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:20:25 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:20:26 httpbin_check.py [line:53] DEBUG: {'ip': '82.192.30.238', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Austria', 'score': 50}
+2021-01-19 23:20:26 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 198.23.143.27:8080
+2021-01-19 23:20:32 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:20:33 httpbin_check.py [line:53] DEBUG: {'ip': '124.94.187.0', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '辽宁省辽阳市', 'score': 50}
+2021-01-19 23:20:33 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 124.158.179.13:8080
+2021-01-19 23:20:35 httpbin_check.py [line:53] DEBUG: {'ip': '49.86.9.21', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_江苏省扬州市电信', 'score': 50}
+2021-01-19 23:20:35 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 49.89.87.181:9999
+2021-01-19 23:20:37 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:20:39 httpbin_check.py [line:53] DEBUG: {'ip': '49.89.87.181', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_江苏省宿迁市电信', 'score': 50}
+2021-01-19 23:20:39 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 49.70.17.233:9999
+2021-01-19 23:20:42 httpbin_check.py [line:53] DEBUG: {'ip': '198.23.143.27', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'United States', 'score': 50}
+2021-01-19 23:20:42 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 190.186.42.124:8080
+2021-01-19 23:20:43 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:20:49 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:20:51 httpbin_check.py [line:53] DEBUG: {'ip': '49.70.17.233', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '江苏省宿迁市', 'score': 50}
+2021-01-19 23:20:51 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 60.174.190.176:9999
+2021-01-19 23:20:53 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:20:54 httpbin_check.py [line:53] DEBUG: {'ip': '124.158.179.13', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '印度尼西亚', 'score': 50}
+2021-01-19 23:20:54 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.221.254.102:48146
+2021-01-19 23:21:02 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:21:03 httpbin_check.py [line:53] DEBUG: {'ip': '190.186.42.124', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Bolivia', 'score': 50}
+2021-01-19 23:21:03 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 36.66.34.10:8080
+2021-01-19 23:21:03 httpbin_check.py [line:53] DEBUG: {'ip': '60.174.190.176', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '安徽省马鞍山市', 'score': 50}
+2021-01-19 23:21:03 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 223.242.224.113:9999
+2021-01-19 23:21:04 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:21:07 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:21:11 httpbin_check.py [line:53] DEBUG: {'ip': '36.66.34.10', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:21:11 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 84.22.46.25:8080
+2021-01-19 23:21:13 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:21:21 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:21:22 httpbin_check.py [line:53] DEBUG: {'ip': '103.221.254.102', 'port': '48146', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '亚太地区', 'score': 50}
+2021-01-19 23:21:22 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): www.66ip.cn:80
+2021-01-19 23:21:22 connectionpool.py [line:461] DEBUG: http://www.66ip.cn:80 "GET /2.html HTTP/1.1" 200 9219
+2021-01-19 23:21:22 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 213.14.6.5:8080
+2021-01-19 23:21:23 httpbin_check.py [line:53] DEBUG: {'ip': '223.242.224.113', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '安徽省安庆市', 'score': 50}
+2021-01-19 23:21:23 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): www.ip3366.net:80
+2021-01-19 23:21:24 connectionpool.py [line:461] DEBUG: http://www.ip3366.net:80 "GET /free/?stype=3&page=1 HTTP/1.1" 200 5337
+2021-01-19 23:21:25 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 5.167.14.236:8080
+2021-01-19 23:21:31 httpbin_check.py [line:53] DEBUG: {'ip': '84.22.46.25', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Serbia', 'score': 50}
+2021-01-19 23:21:31 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.19.109.186:8088
+2021-01-19 23:21:32 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:21:35 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:21:41 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:21:42 httpbin_check.py [line:53] DEBUG: {'ip': '213.14.6.5', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '土耳其', 'score': 50}
+2021-01-19 23:21:42 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 113.121.242.26:29410
+2021-01-19 23:21:45 httpbin_check.py [line:53] DEBUG: {'ip': '5.167.14.236', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 50}
+2021-01-19 23:21:45 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 203.130.152.58:3128
+2021-01-19 23:21:51 httpbin_check.py [line:53] DEBUG: {'ip': '103.19.109.186', 'port': '8088', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:21:51 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 61.90.41.97:8888
+2021-01-19 23:21:52 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:21:55 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:22:01 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:22:02 httpbin_check.py [line:53] DEBUG: {'ip': '113.121.242.26', 'port': '29410', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '山东省德州市', 'score': 50}
+2021-01-19 23:22:02 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 190.85.115.78:3128
+2021-01-19 23:22:05 httpbin_check.py [line:53] DEBUG: {'ip': '203.130.152.58', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_泰国', 'score': 50}
+2021-01-19 23:22:05 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 5.76.191.11:3133
+2021-01-19 23:22:11 httpbin_check.py [line:53] DEBUG: {'ip': '61.90.41.97', 'port': '8888', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Thailand', 'score': 50}
+2021-01-19 23:22:11 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 176.123.129.14:8080
+2021-01-19 23:22:12 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:22:15 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:22:21 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:22:22 httpbin_check.py [line:53] DEBUG: {'ip': '190.85.115.78', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '哥伦比亚', 'score': 50}
+2021-01-19 23:22:22 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 201.87.244.229:8080
+2021-01-19 23:25:03 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): www.66ip.cn:80
+2021-01-19 23:25:03 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): www.ip3366.net:80
+2021-01-19 23:25:03 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): list.proxylistplus.com:443
+2021-01-19 23:25:04 connectionpool.py [line:461] DEBUG: http://www.66ip.cn:80 "GET /1.html HTTP/1.1" 200 9183
+2021-01-19 23:25:04 connectionpool.py [line:461] DEBUG: http://www.ip3366.net:80 "GET /free/?stype=1&page=1 HTTP/1.1" 200 5361
+2021-01-19 23:25:04 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-19 23:25:04 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 61.145.49.109:9999
+2021-01-19 23:25:06 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:25:09 httpbin_check.py [line:53] DEBUG: {'ip': '61.145.49.109', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '广东省江门市恩平市', 'score': 50}
+2021-01-19 23:25:09 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 27.157.253.54:9999
+2021-01-19 23:25:11 connectionpool.py [line:461] DEBUG: http://91.224.182.49:8080 "GET http://httpbin.org/get HTTP/1.1" 200 425
+2021-01-19 23:25:14 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:25:18 connectionpool.py [line:461] DEBUG: https://list.proxylistplus.com:443 "GET /Fresh-HTTP-Proxy-List-1 HTTP/1.1" 200 None
+2021-01-19 23:25:19 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:25:24 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 110.77.134.112:8080
+2021-01-19 23:25:24 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': '8080', 'protocol': 0, 'nick_type': 2, 'speed': 10.03, 'area': '俄罗斯', 'score': 50}
+2021-01-19 23:25:24 mysql_pool.py [line:31] WARNING: 已经存在的代理:{'ip': '91.224.182.49', 'port': '8080', 'protocol': 0, 'nick_type': 2, 'speed': 10.03, 'area': '俄罗斯', 'score': 50}
+2021-01-19 23:25:24 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.148.210.110:8080
+2021-01-19 23:25:29 httpbin_check.py [line:53] DEBUG: {'ip': '27.157.253.54', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '福建省南平市', 'score': 50}
+2021-01-19 23:25:29 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 222.132.224.71:9999
+2021-01-19 23:25:34 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:25:37 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:25:39 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:25:44 httpbin_check.py [line:53] DEBUG: {'ip': '110.77.134.112', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Thailand', 'score': 50}
+2021-01-19 23:25:44 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 178.19.97.1:8088
+2021-01-19 23:25:47 httpbin_check.py [line:53] DEBUG: {'ip': '103.148.210.110', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '亚太地区', 'score': 50}
+2021-01-19 23:25:47 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 182.253.140.250:8080
+2021-01-19 23:25:49 httpbin_check.py [line:53] DEBUG: {'ip': '222.132.224.71', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '山东省临沂市', 'score': 50}
+2021-01-19 23:25:49 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 58.19.83.254:9999
+2021-01-19 23:25:51 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:25:54 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:25:57 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:26:01 httpbin_check.py [line:53] DEBUG: {'ip': '58.19.83.254', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_湖北省武汉市联通', 'score': 50}
+2021-01-19 23:26:01 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 42.59.119.240:9999
+2021-01-19 23:26:04 httpbin_check.py [line:53] DEBUG: {'ip': '178.19.97.1', 'port': '8088', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Poland', 'score': 50}
+2021-01-19 23:26:04 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 71.41.27.245:8080
+2021-01-19 23:26:07 httpbin_check.py [line:53] DEBUG: {'ip': '182.253.140.250', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '印度尼西亚', 'score': 50}
+2021-01-19 23:26:07 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 193.233.9.167:57625
+2021-01-19 23:26:11 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:26:14 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:26:17 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:26:21 httpbin_check.py [line:53] DEBUG: {'ip': '42.59.119.240', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_辽宁省联通', 'score': 50}
+2021-01-19 23:26:21 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 60.169.134.1:9999
+2021-01-19 23:26:24 httpbin_check.py [line:53] DEBUG: {'ip': '71.41.27.245', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'United States', 'score': 50}
+2021-01-19 23:26:24 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 176.106.120.82:8080
+2021-01-19 23:26:27 httpbin_check.py [line:53] DEBUG: {'ip': '193.233.9.167', 'port': '57625', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 50}
+2021-01-19 23:26:27 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 120.83.108.3:9999
+2021-01-19 23:26:31 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:26:34 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:26:37 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:26:41 httpbin_check.py [line:53] DEBUG: {'ip': '60.169.134.1', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_安徽省芜湖市电信', 'score': 50}
+2021-01-19 23:26:41 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 218.62.124.120:9999
+2021-01-19 23:26:44 httpbin_check.py [line:53] DEBUG: {'ip': '176.106.120.82', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Serbia', 'score': 50}
+2021-01-19 23:26:44 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 190.104.170.234:8080
+2021-01-19 23:26:47 httpbin_check.py [line:53] DEBUG: {'ip': '120.83.108.3', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '广东省揭阳市普宁市', 'score': 50}
+2021-01-19 23:26:47 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-19 23:26:51 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:26:54 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:27:01 httpbin_check.py [line:53] DEBUG: {'ip': '218.62.124.120', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '吉林省白山市', 'score': 50}
+2021-01-19 23:27:01 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 223.243.245.112:9999
+2021-01-19 23:27:02 connectionpool.py [line:461] DEBUG: http://187.111.160.8:42579 "GET http://httpbin.org/get HTTP/1.1" 200 377
+2021-01-19 23:27:02 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:27:04 httpbin_check.py [line:53] DEBUG: {'ip': '190.104.170.234', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Paraguay', 'score': 50}
+2021-01-19 23:27:04 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 203.160.163.58:8080
+2021-01-19 23:27:11 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:27:12 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': '42579', 'protocol': 0, 'nick_type': 0, 'speed': 15.27, 'area': '巴西', 'score': 50}
+2021-01-19 23:27:13 mysql_pool.py [line:29] INFO: 插入新的代理:{'ip': '187.111.160.8', 'port': '42579', 'protocol': 0, 'nick_type': 0, 'speed': 15.27, 'area': '巴西', 'score': 50}
+2021-01-19 23:27:13 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 115.221.247.205:9999
+2021-01-19 23:27:14 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:27:21 httpbin_check.py [line:53] DEBUG: {'ip': '223.243.245.112', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_安徽省芜湖市电信', 'score': 50}
+2021-01-19 23:27:21 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 222.189.191.200:9999
+2021-01-19 23:27:23 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:27:24 httpbin_check.py [line:53] DEBUG: {'ip': '203.160.163.58', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Philippines', 'score': 50}
+2021-01-19 23:27:24 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 75.134.84.195:8080
+2021-01-19 23:27:31 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:27:33 httpbin_check.py [line:53] DEBUG: {'ip': '115.221.247.205', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '浙江省温州市', 'score': 50}
+2021-01-19 23:27:33 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 179.49.112.158:999
+2021-01-19 23:27:34 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:27:41 httpbin_check.py [line:53] DEBUG: {'ip': '222.189.191.200', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_江苏省扬州市电信', 'score': 50}
+2021-01-19 23:27:41 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 49.89.103.90:9999
+2021-01-19 23:27:43 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:27:44 httpbin_check.py [line:53] DEBUG: {'ip': '75.134.84.195', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'United States', 'score': 50}
+2021-01-19 23:27:44 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 182.180.154.47:3128
+2021-01-19 23:27:51 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:27:54 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:27:56 httpbin_check.py [line:53] DEBUG: {'ip': '179.49.112.158', 'port': '999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '洪都拉斯', 'score': 50}
+2021-01-19 23:27:56 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 107.178.9.186:8080
+2021-01-19 23:28:01 httpbin_check.py [line:53] DEBUG: {'ip': '49.89.103.90', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_江苏省宿迁市电信', 'score': 50}
+2021-01-19 23:28:01 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 49.86.9.21:9999
+2021-01-19 23:28:02 httpbin_check.py [line:53] DEBUG: {'ip': '182.180.154.47', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Pakistan', 'score': 50}
+2021-01-19 23:28:02 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 23.95.43.171:3128
+2021-01-19 23:28:06 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:28:07 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:28:12 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:28:15 httpbin_check.py [line:53] DEBUG: {'ip': '49.86.9.21', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_江苏省扬州市电信', 'score': 50}
+2021-01-19 23:28:15 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 49.89.87.181:9999
+2021-01-19 23:28:16 httpbin_check.py [line:53] DEBUG: {'ip': '107.178.9.186', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '北美地区', 'score': 50}
+2021-01-19 23:28:16 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 124.94.187.0:9999
+2021-01-19 23:28:17 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:28:20 httpbin_check.py [line:53] DEBUG: {'ip': '49.89.87.181', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_江苏省宿迁市电信', 'score': 50}
+2021-01-19 23:28:20 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 49.70.17.233:9999
+2021-01-19 23:28:22 httpbin_check.py [line:53] DEBUG: {'ip': '23.95.43.171', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'United States', 'score': 50}
+2021-01-19 23:28:22 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 82.192.30.238:8080
+2021-01-19 23:28:22 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:28:25 httpbin_check.py [line:53] DEBUG: {'ip': '49.70.17.233', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '江苏省宿迁市', 'score': 50}
+2021-01-19 23:28:25 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 60.174.190.176:9999
+2021-01-19 23:28:26 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:28:27 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:28:32 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:28:33 httpbin_check.py [line:53] DEBUG: {'ip': '60.174.190.176', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '安徽省马鞍山市', 'score': 50}
+2021-01-19 23:28:33 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 223.242.224.113:9999
+2021-01-19 23:28:36 httpbin_check.py [line:53] DEBUG: {'ip': '124.94.187.0', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '辽宁省辽阳市', 'score': 50}
+2021-01-19 23:28:36 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 124.158.179.13:8080
+2021-01-19 23:28:42 httpbin_check.py [line:53] DEBUG: {'ip': '82.192.30.238', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Austria', 'score': 50}
+2021-01-19 23:28:42 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 198.23.143.27:8080
+2021-01-19 23:28:43 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:28:46 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:28:52 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:28:53 httpbin_check.py [line:53] DEBUG: {'ip': '223.242.224.113', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '安徽省安庆市', 'score': 50}
+2021-01-19 23:28:53 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): www.ip3366.net:80
+2021-01-19 23:28:54 connectionpool.py [line:461] DEBUG: http://www.ip3366.net:80 "GET /free/?stype=3&page=1 HTTP/1.1" 200 5337
+2021-01-19 23:28:56 httpbin_check.py [line:53] DEBUG: {'ip': '124.158.179.13', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '印度尼西亚', 'score': 50}
+2021-01-19 23:28:56 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.221.254.102:48146
+2021-01-19 23:29:02 httpbin_check.py [line:53] DEBUG: {'ip': '198.23.143.27', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'United States', 'score': 50}
+2021-01-19 23:29:02 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 190.186.42.124:8080
+2021-01-19 23:29:06 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:29:12 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:29:20 httpbin_check.py [line:53] DEBUG: {'ip': '103.221.254.102', 'port': '48146', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '亚太地区', 'score': 50}
+2021-01-19 23:29:20 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): www.66ip.cn:80
+2021-01-19 23:29:20 connectionpool.py [line:461] DEBUG: http://www.66ip.cn:80 "GET /2.html HTTP/1.1" 200 9219
+2021-01-19 23:29:20 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 213.14.6.5:8080
+2021-01-19 23:29:22 httpbin_check.py [line:53] DEBUG: {'ip': '190.186.42.124', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Bolivia', 'score': 50}
+2021-01-19 23:29:22 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 36.66.34.10:8080
+2021-01-19 23:29:30 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:29:31 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:29:40 httpbin_check.py [line:53] DEBUG: {'ip': '213.14.6.5', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '土耳其', 'score': 50}
+2021-01-19 23:29:40 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 113.121.242.26:29410
+2021-01-19 23:29:41 httpbin_check.py [line:53] DEBUG: {'ip': '36.66.34.10', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:29:41 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 84.22.46.25:8080
+2021-01-19 23:29:50 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:29:51 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:30:00 httpbin_check.py [line:53] DEBUG: {'ip': '113.121.242.26', 'port': '29410', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '山东省德州市', 'score': 50}
+2021-01-19 23:30:00 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 190.85.115.78:3128
+2021-01-19 23:30:01 httpbin_check.py [line:53] DEBUG: {'ip': '84.22.46.25', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Serbia', 'score': 50}
+2021-01-19 23:30:01 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.19.109.186:8088
+2021-01-19 23:30:11 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:30:11 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:30:21 httpbin_check.py [line:53] DEBUG: {'ip': '103.19.109.186', 'port': '8088', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:30:21 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 61.90.41.97:8888
+2021-01-19 23:30:21 httpbin_check.py [line:53] DEBUG: {'ip': '190.85.115.78', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '哥伦比亚', 'score': 50}
+2021-01-19 23:30:21 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 201.87.244.229:8080
+2021-01-19 23:30:31 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:30:31 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:30:41 httpbin_check.py [line:53] DEBUG: {'ip': '61.90.41.97', 'port': '8888', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Thailand', 'score': 50}
+2021-01-19 23:30:41 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 176.123.129.14:8080
+2021-01-19 23:30:41 httpbin_check.py [line:53] DEBUG: {'ip': '201.87.244.229', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-19 23:30:41 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 201.62.56.49:35816
+2021-01-19 23:30:51 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:30:54 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:31:01 httpbin_check.py [line:53] DEBUG: {'ip': '176.123.129.14', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Russian Federation', 'score': 50}
+2021-01-19 23:31:01 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 46.39.192.48:8080
+2021-01-19 23:31:04 httpbin_check.py [line:53] DEBUG: {'ip': '201.62.56.49', 'port': '35816', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-19 23:31:04 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 121.211.254.46:8080
+2021-01-19 23:31:11 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:31:14 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:31:21 httpbin_check.py [line:53] DEBUG: {'ip': '46.39.192.48', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Spain', 'score': 50}
+2021-01-19 23:31:21 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.247.101.102:8080
+2021-01-19 23:31:24 httpbin_check.py [line:53] DEBUG: {'ip': '121.211.254.46', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '澳大利亚', 'score': 50}
+2021-01-19 23:31:24 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 114.4.246.86:8080
+2021-01-19 23:31:31 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:31:34 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:31:41 httpbin_check.py [line:53] DEBUG: {'ip': '103.247.101.102', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:31:41 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.4.66.45:8080
+2021-01-19 23:31:51 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:31:54 httpbin_check.py [line:53] DEBUG: {'ip': '114.4.246.86', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '印度尼西亚', 'score': 50}
+2021-01-19 23:31:54 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 202.191.96.139:8080
+2021-01-19 23:32:01 httpbin_check.py [line:53] DEBUG: {'ip': '103.4.66.45', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Bangladesh', 'score': 50}
+2021-01-19 23:32:01 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 202.56.160.110:8080
+2021-01-19 23:32:04 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:32:11 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:32:14 httpbin_check.py [line:53] DEBUG: {'ip': '202.191.96.139', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '澳大利亚', 'score': 50}
+2021-01-19 23:32:14 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 86.123.166.109:8080
+2021-01-19 23:32:21 httpbin_check.py [line:53] DEBUG: {'ip': '202.56.160.110', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:32:21 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 78.189.178.224:80
+2021-01-19 23:32:24 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:32:31 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:32:34 httpbin_check.py [line:53] DEBUG: {'ip': '86.123.166.109', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '罗马尼亚', 'score': 50}
+2021-01-19 23:32:34 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 120.83.108.214:9999
+2021-01-19 23:32:41 httpbin_check.py [line:53] DEBUG: {'ip': '78.189.178.224', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Turkey', 'score': 50}
+2021-01-19 23:32:41 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 186.19.175.6:3128
+2021-01-19 23:32:44 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:32:46 httpbin_check.py [line:53] DEBUG: {'ip': '120.83.108.214', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '广东省揭阳市普宁市', 'score': 50}
+2021-01-19 23:32:46 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 178.128.63.189:3128
+2021-01-19 23:32:49 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:32:55 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:32:59 httpbin_check.py [line:53] DEBUG: {'ip': '186.19.175.6', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Argentina', 'score': 50}
+2021-01-19 23:32:59 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 103.246.1.101:8080
+2021-01-19 23:33:01 httpbin_check.py [line:53] DEBUG: {'ip': '178.128.63.189', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '希腊', 'score': 50}
+2021-01-19 23:33:01 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 138.59.150.198:8080
+2021-01-19 23:33:09 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:33:11 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:33:19 httpbin_check.py [line:53] DEBUG: {'ip': '103.246.1.101', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:33:19 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 119.18.153.18:8080
+2021-01-19 23:33:21 httpbin_check.py [line:53] DEBUG: {'ip': '138.59.150.198', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '北美地区', 'score': 50}
+2021-01-19 23:33:21 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): www.66ip.cn:80
+2021-01-19 23:33:24 connectionpool.py [line:461] DEBUG: http://www.66ip.cn:80 "GET /3.html HTTP/1.1" 200 9239
+2021-01-19 23:33:24 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 45.76.111.235:3128
+2021-01-19 23:33:29 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:33:34 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:33:39 httpbin_check.py [line:53] DEBUG: {'ip': '119.18.153.18', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:33:39 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 125.209.73.57:8080
+2021-01-19 23:33:44 httpbin_check.py [line:53] DEBUG: {'ip': '45.76.111.235', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'IANA', 'score': 50}
+2021-01-19 23:33:44 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 194.44.52.225:8080
+2021-01-19 23:33:44 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:33:54 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:33:54 httpbin_check.py [line:53] DEBUG: {'ip': '125.209.73.57', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Pakistan', 'score': 50}
+2021-01-19 23:33:54 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 186.101.113.234:8080
+2021-01-19 23:34:04 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:34:07 httpbin_check.py [line:53] DEBUG: {'ip': '194.44.52.225', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '乌克兰', 'score': 50}
+2021-01-19 23:34:07 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 223.243.175.145:9999
+2021-01-19 23:34:08 run_crawler.py [line:47] ERROR: ("Connection broken: ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)", ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+Traceback (most recent call last):
+  File "D:\Learning software\Python\lib\site-packages\urllib3\response.py", line 438, in _error_catcher
+    yield
+  File "D:\Learning software\Python\lib\site-packages\urllib3\response.py", line 519, in read
+    data = self._fp.read(amt) if not fp_closed else b""
+  File "D:\Learning software\Python\lib\http\client.py", line 447, in read
+    n = self.readinto(b)
+  File "D:\Learning software\Python\lib\http\client.py", line 491, in readinto
+    n = self.fp.readinto(b)
+  File "D:\Learning software\Python\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "D:\Learning software\Python\lib\site-packages\gevent\_socketcommon.py", line 688, in recv_into
+    return self._sock.recv_into(*args)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Learning software\Python\lib\site-packages\requests\models.py", line 753, in generate
+    for chunk in self.raw.stream(chunk_size, decode_content=True):
+  File "D:\Learning software\Python\lib\site-packages\urllib3\response.py", line 576, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "D:\Learning software\Python\lib\site-packages\urllib3\response.py", line 541, in read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+  File "D:\Learning software\Python\lib\contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "D:\Learning software\Python\lib\site-packages\urllib3\response.py", line 455, in _error_catcher
+    raise ProtocolError("Connection broken: %r" % e, e)
+urllib3.exceptions.ProtocolError: ("Connection broken: ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)", ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_crawler/run_crawler.py", line 40, in __run_one_crawler
+    for proxy in cra.get_ipitem():
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\ip_crawler\base_crawler.py", line 39, in get_ipitem
+    page = self.get_page_from_url(url)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\ip_crawler\base_crawler.py", line 21, in get_page_from_url
+    response = requests.get(url, headers=getuser_agent())
+  File "D:\Learning software\Python\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Learning software\Python\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Learning software\Python\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Learning software\Python\lib\site-packages\requests\sessions.py", line 697, in send
+    r.content
+  File "D:\Learning software\Python\lib\site-packages\requests\models.py", line 831, in content
+    self._content = b''.join(self.iter_content(CONTENT_CHUNK_SIZE)) or b''
+  File "D:\Learning software\Python\lib\site-packages\requests\models.py", line 756, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ("Connection broken: ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)", ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2021-01-19 23:34:08 run_crawler.py [line:48] ERROR: 爬虫<ip_agent_pool.core.ip_crawler.ipweb_crawler.Ip3366Crawler object at 0x000001E6DB606CC0> 出现错误
+Traceback (most recent call last):
+  File "D:\Learning software\Python\lib\site-packages\urllib3\response.py", line 438, in _error_catcher
+    yield
+  File "D:\Learning software\Python\lib\site-packages\urllib3\response.py", line 519, in read
+    data = self._fp.read(amt) if not fp_closed else b""
+  File "D:\Learning software\Python\lib\http\client.py", line 447, in read
+    n = self.readinto(b)
+  File "D:\Learning software\Python\lib\http\client.py", line 491, in readinto
+    n = self.fp.readinto(b)
+  File "D:\Learning software\Python\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "D:\Learning software\Python\lib\site-packages\gevent\_socketcommon.py", line 688, in recv_into
+    return self._sock.recv_into(*args)
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Learning software\Python\lib\site-packages\requests\models.py", line 753, in generate
+    for chunk in self.raw.stream(chunk_size, decode_content=True):
+  File "D:\Learning software\Python\lib\site-packages\urllib3\response.py", line 576, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "D:\Learning software\Python\lib\site-packages\urllib3\response.py", line 541, in read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+  File "D:\Learning software\Python\lib\contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "D:\Learning software\Python\lib\site-packages\urllib3\response.py", line 455, in _error_catcher
+    raise ProtocolError("Connection broken: %r" % e, e)
+urllib3.exceptions.ProtocolError: ("Connection broken: ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)", ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_crawler/run_crawler.py", line 40, in __run_one_crawler
+    for proxy in cra.get_ipitem():
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\ip_crawler\base_crawler.py", line 39, in get_ipitem
+    page = self.get_page_from_url(url)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\ip_crawler\base_crawler.py", line 21, in get_page_from_url
+    response = requests.get(url, headers=getuser_agent())
+  File "D:\Learning software\Python\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Learning software\Python\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Learning software\Python\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Learning software\Python\lib\site-packages\requests\sessions.py", line 697, in send
+    r.content
+  File "D:\Learning software\Python\lib\site-packages\requests\models.py", line 831, in content
+    self._content = b''.join(self.iter_content(CONTENT_CHUNK_SIZE)) or b''
+  File "D:\Learning software\Python\lib\site-packages\requests\models.py", line 756, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ("Connection broken: ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)", ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2021-01-19 23:34:14 httpbin_check.py [line:53] DEBUG: {'ip': '186.101.113.234', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Ecuador', 'score': 50}
+2021-01-19 23:34:14 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 36.66.242.10:8080
+2021-01-19 23:34:17 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:34:24 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:34:27 httpbin_check.py [line:53] DEBUG: {'ip': '223.243.175.145', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '安徽省芜湖市芜湖县', 'score': 50}
+2021-01-19 23:34:27 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 177.70.243.29:8080
+2021-01-19 23:34:34 httpbin_check.py [line:53] DEBUG: {'ip': '36.66.242.10', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:34:34 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 180.250.100.66:3128
+2021-01-19 23:34:37 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:34:44 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:34:47 httpbin_check.py [line:53] DEBUG: {'ip': '177.70.243.29', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-19 23:34:47 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 123.171.42.252:8888
+2021-01-19 23:34:54 httpbin_check.py [line:53] DEBUG: {'ip': '180.250.100.66', 'port': '3128', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Indonesia', 'score': 50}
+2021-01-19 23:34:54 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 94.154.222.95:8080
+2021-01-19 23:34:57 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:35:04 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-19 23:35:05 httpbin_check.py [line:53] DEBUG: {'ip': '123.171.42.252', 'port': '8888', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '山东省聊城市', 'score': 50}
+2021-01-19 23:35:05 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 36.249.119.47:9999
+2021-01-19 23:35:14 httpbin_check.py [line:53] DEBUG: {'ip': '94.154.222.95', 'port': '8080', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'Ukraine', 'score': 50}
+2021-01-19 23:35:14 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 80.188.135.10:8080
+2021-01-19 23:35:15 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443

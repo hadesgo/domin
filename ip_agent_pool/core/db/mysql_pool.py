@@ -97,6 +97,6 @@ class Mysql(object):
 
 if __name__ == '__main__':
     mysql = Mysql()
-    ipitem = IpItem('202.104.113.35', port='53281')
+    ipitem = IpItem('202.104.113.35', '53281')
     mysql.insert(ipitem)
     mysql.find_all()

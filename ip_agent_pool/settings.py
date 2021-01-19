@@ -19,3 +19,22 @@ LOG_FILENAME = 'log.log'  # 默认日志文件名称
 
 # 设置超时时间
 TIMEOUT = 10
+
+# 配置代理爬虫列表
+PROXIES_CRAWLER = [
+    'ip_crawler.ipweb_crawler.Ip66Crawler',
+    'ip_crawler.ipweb_crawler.Ip3366Crawler',
+    'ip_crawler.ipweb_crawler.ProxylistplusCrawler',
+]
+
+# 抓取IP的时间间隔，单位小时
+CRAWLER_INTERVAL = 2
+
+# 异步
+TESTER_ANSYC_COUNT = 10
+
+# 检查可用IP的时间间隔，单位小时
+TESTER_INTERVAL = 1
+
+# 提供可用代理IP的默认数量，数量越少可用性越高
+AVAILABLE_IP_COUNT = 20
