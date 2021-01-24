@@ -31,7 +31,7 @@ class Mysql(object):
             logger.warning("已经存在的代理:{}".format(ipItem))
 
     def update_port(self, ipItem):
-        sql = "UPDATE IP_Pool SET IP_Port = %s where IP_Address = %s " % \
+        sql = "UPDATE IP_Pool SET IP_Port = '%s' where IP_Address = '%s' " % \
               (ipItem.port, ipItem.ip)
         try:
             self.cursor.execute(sql)
@@ -40,7 +40,7 @@ class Mysql(object):
             self.db.rollback()
 
     def update_protocol(self, ipItem):
-        sql = "UPDATE IP_Pool SET IP_Protocol = %s where IP_Address = %s " % \
+        sql = "UPDATE IP_Pool SET IP_Protocol = '%s' where IP_Address = '%s' " % \
               (ipItem.protocol, ipItem.ip)
         try:
             self.cursor.execute(sql)
@@ -49,7 +49,7 @@ class Mysql(object):
             self.db.rollback()
 
     def update_nick(self, ipItem):
-        sql = "UPDATE IP_Pool SET IP_Nick = %s where IP_Address = %s " % \
+        sql = "UPDATE IP_Pool SET IP_Nick = '%s' where IP_Address = '%s' " % \
               (ipItem.nick_type, ipItem.ip)
         try:
             self.cursor.execute(sql)
@@ -58,7 +58,7 @@ class Mysql(object):
             self.db.rollback()
 
     def update_speed(self, ipItem):
-        sql = "UPDATE IP_Pool SET IP_Speed = %s where IP_Address = %s " % \
+        sql = "UPDATE IP_Pool SET IP_Speed = '%s' where IP_Address = '%s' " % \
               (ipItem.speed, ipItem.ip)
         try:
             self.cursor.execute(sql)
@@ -67,7 +67,7 @@ class Mysql(object):
             self.db.rollback()
 
     def update_score(self, ipItem):
-        sql = "UPDATE IP_Pool SET IP_Score = %s where IP_Address = %s " % \
+        sql = "UPDATE IP_Pool SET IP_Score = '%s' where IP_Address = '%s' " % \
               (ipItem.score, ipItem.ip)
         try:
             self.cursor.execute(sql)
@@ -76,7 +76,7 @@ class Mysql(object):
             self.db.rollback()
 
     def delete(self, ipItem):
-        sql = "DELETE FROM IP_Pool WHERE IP_Address = %s " % \
+        sql = "DELETE FROM IP_Pool WHERE IP_Address = '%s' " % \
               ipItem.ip
         try:
             self.cursor.execute(sql)
@@ -90,13 +90,16 @@ class Mysql(object):
             self.cursor.execute(sql)
             results = self.cursor.fetchall()
             for item in results:
-                print(item)
+                ip = IpItem(item[0], item[1], item[2], item[3], item[4], item[5], item[6])
+                yield ip
         except:
             print("Error: unable to fetch data")
 
 
 if __name__ == '__main__':
     mysql = Mysql()
-    ipitem = IpItem('202.104.113.35', '53281')
-    mysql.insert(ipitem)
-    mysql.find_all()
+    ip = IpItem('91.224.182.49', port=8080, score=49)
+    print(ip)
+    mysql.update_score(ip)
+    for ip in mysql.find_all():
+        print(ip)

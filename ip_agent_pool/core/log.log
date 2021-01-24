@@ -1,0 +1,283 @@
+2021-01-22 14:01:23 ip_test.py [line:40] ERROR: 'tuple' object has no attribute 'ip'
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 27, in test_proxy
+    proxy = check_proxy(proxy)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\ip_check\httpbin_check.py", line 27, in check_proxy
+    'http': "http://{}:{}".format(iPitem.ip, iPitem.port),
+AttributeError: 'tuple' object has no attribute 'ip'
+2021-01-22 14:01:23 ip_test.py [line:40] ERROR: 'tuple' object has no attribute 'ip'
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 27, in test_proxy
+    proxy = check_proxy(proxy)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\ip_check\httpbin_check.py", line 27, in check_proxy
+    'http': "http://{}:{}".format(iPitem.ip, iPitem.port),
+AttributeError: 'tuple' object has no attribute 'ip'
+2021-01-22 14:08:12 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-22 14:08:12 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-22 14:08:22 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:08:22 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:08:32 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-22 14:08:32 ip_test.py [line:40] ERROR: 'int' object has no attribute 'score'
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 34, in test_proxy
+    self.proxy_pool.update_score(proxy.score)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 71, in update_score
+    (ipItem.score, ipItem.ip)
+AttributeError: 'int' object has no attribute 'score'
+2021-01-22 14:08:32 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 50}
+2021-01-22 14:08:32 ip_test.py [line:40] ERROR: 'int' object has no attribute 'score'
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 34, in test_proxy
+    self.proxy_pool.update_score(proxy.score)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 71, in update_score
+    (ipItem.score, ipItem.ip)
+AttributeError: 'int' object has no attribute 'score'
+2021-01-22 14:09:59 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-22 14:09:59 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-22 14:10:09 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:10:10 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:10:19 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 50}
+2021-01-22 14:10:19 ip_test.py [line:40] ERROR: 'int' object has no attribute 'score'
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 34, in test_proxy
+    self.proxy_pool.update_score(proxy.score)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 71, in update_score
+    (ipItem.score, ipItem.ip)
+AttributeError: 'int' object has no attribute 'score'
+2021-01-22 14:10:20 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-22 14:10:20 ip_test.py [line:40] ERROR: 'int' object has no attribute 'score'
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 34, in test_proxy
+    self.proxy_pool.update_score(proxy.score)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 71, in update_score
+    (ipItem.score, ipItem.ip)
+AttributeError: 'int' object has no attribute 'score'
+2021-01-22 14:17:55 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-22 14:17:55 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-22 14:18:05 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:18:08 connectionpool.py [line:461] DEBUG: http://91.224.182.49:8080 "GET http://httpbin.org/get HTTP/1.1" 403 118
+2021-01-22 14:18:09 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:18:15 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 15.27, 'score': '巴西'}
+2021-01-22 14:18:15 ip_test.py [line:40] ERROR: unsupported operand type(s) for -=: 'str' and 'int'
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 29, in test_proxy
+    proxy.score -= 1
+TypeError: unsupported operand type(s) for -=: 'str' and 'int'
+2021-01-22 14:18:19 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 10.91, 'score': '俄罗斯'}
+2021-01-22 14:18:19 ip_test.py [line:40] ERROR: unsupported operand type(s) for -=: 'str' and 'int'
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 29, in test_proxy
+    proxy.score -= 1
+TypeError: unsupported operand type(s) for -=: 'str' and 'int'
+2021-01-22 14:23:10 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-22 14:23:10 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-22 14:23:19 connectionpool.py [line:461] DEBUG: http://91.224.182.49:8080 "GET http://httpbin.org/get HTTP/1.1" 403 520
+2021-01-22 14:23:19 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:23:20 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:23:29 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 50}
+2021-01-22 14:23:29 ip_test.py [line:40] ERROR: 'int' object has no attribute 'score'
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 34, in test_proxy
+    self.proxy_pool.update_score(proxy.score)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 71, in update_score
+    (ipItem.score, ipItem.ip)
+AttributeError: 'int' object has no attribute 'score'
+2021-01-22 14:23:30 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-22 14:23:30 ip_test.py [line:40] ERROR: 'int' object has no attribute 'score'
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 34, in test_proxy
+    self.proxy_pool.update_score(proxy.score)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 71, in update_score
+    (ipItem.score, ipItem.ip)
+AttributeError: 'int' object has no attribute 'score'
+2021-01-22 14:24:57 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-22 14:24:57 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-22 14:25:07 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:25:10 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:25:17 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 50}
+2021-01-22 14:25:17 ip_test.py [line:40] ERROR: update_score() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 34, in test_proxy
+    self.proxy_pool.update_score(proxy.score, proxy.ip)
+TypeError: update_score() takes 2 positional arguments but 3 were given
+2021-01-22 14:25:20 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-22 14:25:20 ip_test.py [line:40] ERROR: update_score() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 34, in test_proxy
+    self.proxy_pool.update_score(proxy.score, proxy.ip)
+TypeError: update_score() takes 2 positional arguments but 3 were given
+2021-01-22 14:30:50 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-22 14:30:50 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-22 14:30:59 connectionpool.py [line:461] DEBUG: http://91.224.182.49:8080 "GET http://httpbin.org/get HTTP/1.1" 403 520
+2021-01-22 14:30:59 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:31:09 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:31:10 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 50}
+2021-01-22 14:31:26 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-22 14:33:03 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-22 14:33:03 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-22 14:33:13 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:33:13 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:33:23 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-22 14:33:23 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 50}
+2021-01-22 14:33:23 ip_test.py [line:40] ERROR: (0, '')
+Traceback (most recent call last):
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 73, in update_score
+    self.cursor.execute(sql)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 732, in _read_bytes
+    data = self._rfile.read(num_bytes)
+RuntimeError: reentrant call inside <_io.BufferedReader name=492>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 34, in test_proxy
+    self.proxy_pool.update_score(proxy)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 76, in update_score
+    self.db.rollback()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 479, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2021-01-22 14:33:24 ip_test.py [line:40] ERROR: (0, '')
+Traceback (most recent call last):
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 73, in update_score
+    self.cursor.execute(sql)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 711, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 729, in _read_bytes
+    self._sock.settimeout(self._read_timeout)
+AttributeError: 'NoneType' object has no attribute 'settimeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 34, in test_proxy
+    self.proxy_pool.update_score(proxy)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 76, in update_score
+    self.db.rollback()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 479, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2021-01-22 14:34:50 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-22 14:34:50 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-22 14:35:00 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:35:00 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:35:10 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-22 14:35:10 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 50}
+2021-01-22 14:35:10 ip_test.py [line:40] ERROR: (0, '')
+Traceback (most recent call last):
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 73, in update_score
+    self.cursor.execute(sql)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 732, in _read_bytes
+    data = self._rfile.read(num_bytes)
+RuntimeError: reentrant call inside <_io.BufferedReader name=560>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 34, in test_proxy
+    self.proxy_pool.update_score(proxy)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 76, in update_score
+    self.db.rollback()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 479, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2021-01-22 14:35:10 ip_test.py [line:40] ERROR: (0, '')
+Traceback (most recent call last):
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 73, in update_score
+    self.cursor.execute(sql)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 711, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 729, in _read_bytes
+    self._sock.settimeout(self._read_timeout)
+AttributeError: 'NoneType' object has no attribute 'settimeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/1234/PycharmProjects/domin/ip_agent_pool/core/ip_test.py", line 34, in test_proxy
+    self.proxy_pool.update_score(proxy)
+  File "C:\Users\1234\PycharmProjects\domin\ip_agent_pool\core\db\mysql_pool.py", line 76, in update_score
+    self.db.rollback()
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 479, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "D:\Learning software\Python\lib\site-packages\pymysql\connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+2021-01-22 14:36:01 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-22 14:36:01 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-22 14:36:11 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:36:11 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:36:23 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 50}
+2021-01-22 14:36:25 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-22 14:49:51 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-22 14:49:51 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-22 14:49:52 connectionpool.py [line:461] DEBUG: http://91.224.182.49:8080 "GET http://httpbin.org/get HTTP/1.1" 403 520
+2021-01-22 14:49:52 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:50:01 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:50:03 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 49}
+2021-01-22 14:50:11 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 50}
+2021-01-22 14:53:54 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-22 14:53:54 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-22 14:54:04 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:54:04 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:54:14 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 48}
+2021-01-22 14:54:15 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 49}
+2021-01-22 14:59:04 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-22 14:59:14 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 14:59:24 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 48}
+2021-01-22 14:59:52 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 187.111.160.8:42579
+2021-01-22 14:59:52 connectionpool.py [line:231] DEBUG: Starting new HTTP connection (1): 91.224.182.49:8080
+2021-01-22 15:00:02 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 15:00:02 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+2021-01-22 15:00:12 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 47}
+2021-01-22 15:00:15 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 47}
