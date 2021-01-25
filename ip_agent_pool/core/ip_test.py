@@ -32,7 +32,7 @@ class ProxyTester(object):
                 else:
                     self.proxy_pool.update_score(proxy)
             else:
-                proxy.score = MAX_SCORE
+                proxy.score = settings.MAX_SCORE
                 self.proxy_pool.update_score(proxy)
 
         except Exception as ex:
@@ -66,7 +66,7 @@ class ProxyTester(object):
     def start():
         tester = ProxyTester()
         tester.run()
-        schedule.every(TESTER_INTERVAL).hours.do(tester.run)
+        schedule.every(settings.TESTER_INTERVAL).hours.do(tester.run)
         while True:
             schedule.run_pending()
             time.sleep(1)

@@ -281,3 +281,4 @@ pymysql.err.InterfaceError: (0, '')
 2021-01-22 15:00:02 connectionpool.py [line:975] DEBUG: Starting new HTTPS connection (1): httpbin.org:443
 2021-01-22 15:00:12 httpbin_check.py [line:53] DEBUG: {'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 47}
 2021-01-22 15:00:15 httpbin_check.py [line:53] DEBUG: {'ip': '91.224.182.49', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 47}
+2021-01-25 17:50:40 _internal.py [line:113] INFO:  * Running on http://0.0.0.0:6868/ (Press CTRL+C to quit)

@@ -1,14 +1,18 @@
+import time
 import pymysql
 import random
-from ip_agent_pool.settings import *
+import threading
 from ip_agent_pool.tool.log import logger
 from ip_agent_pool.ip_model import IpItem
 
 
 class Mysql(object):
+    global G_MUTEX
+
     def __init__(self):
         self.db = pymysql.connect(host="139.224.54.100", user="root", password="123", database="HADES")
         self.cursor = self.db.cursor()
+        self.lock = threading.Lock()
 
     def __del__(self):
         self.db.close()
@@ -20,8 +24,10 @@ class Mysql(object):
               VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s')" % \
               (ipItem.ip, ipItem.port, ipItem.protocol, ipItem.nick_type, ipItem.speed, ipItem.area, ipItem.score)
         try:
+            self.lock.acquire()
             self.cursor.execute(sql)
             self.db.commit()
+            self.lock.release()
         except:
             self.db.rollback()
             count = 0
@@ -67,13 +73,21 @@ class Mysql(object):
             self.db.rollback()
 
     def update_score(self, ipItem):
+        count = 1
         sql = "UPDATE IP_Pool SET IP_Score = '%s' where IP_Address = '%s' " % \
               (ipItem.score, ipItem.ip)
         try:
+            self.lock.acquire()
             self.cursor.execute(sql)
             self.db.commit()
+            self.lock.release()
         except:
             self.db.rollback()
+            count = 0
+        if count == 1:
+            logger.info("修改代理成功:{}".format(ipItem))
+        else:
+            logger.warning("修改代理失败:{}".format(ipItem))
 
     def delete(self, ipItem):
         sql = "DELETE FROM IP_Pool WHERE IP_Address = '%s' " % \
@@ -95,11 +109,22 @@ class Mysql(object):
         except:
             print("Error: unable to fetch data")
 
+    def random(self, protocol):
+        sql = "SELECT * FROM IP_Pool WHERE Ip_Protocol = '%s' " % \
+              protocol
+        try:
+            self.cursor.execute(sql)
+            results = self.cursor.fetchall()
+            item = random.choice(results)
+            return item
+        except:
+            print("Error: don't get a proxy")
+
 
 if __name__ == '__main__':
     mysql = Mysql()
     ip = IpItem('91.224.182.49', port=8080, score=49)
     print(ip)
-    mysql.update_score(ip)
     for ip in mysql.find_all():
         print(ip)
+    print(mysql.random(0))

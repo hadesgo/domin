@@ -36,5 +36,3 @@ TESTER_ANSYC_COUNT = 10
 # 检查可用IP的时间间隔，单位小时
 TESTER_INTERVAL = 1
 
-# 提供可用代理IP的默认数量，数量越少可用性越高
-AVAILABLE_IP_COUNT = 20

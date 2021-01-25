@@ -3,9 +3,7 @@
 
 from flask import Flask
 from flask import request
-import json
 
-from ip_agent_pool import settings
 from ip_agent_pool.core.db.mysql_pool import Mysql
 
 
@@ -23,15 +21,6 @@ class ProxyApi(object):
                 return '{}://{}:{}'.format(protocol, proxy.ip, proxy.port)
             else:
                 return '{}:{}'.format(proxy.ip, proxy.port)
-
-        @self.app.route('/proxies')
-        def proxies():
-            protocol = request.args.get('protocol')
-            proxies = self.proxy_pool.get_proxies(protocol=protocol, count=settings.AVAILABLE_IP_COUNT)
-            lis = []
-            for proxy in proxies:
-                lis.append(proxy.__dict__)
-            return json.dump(lis)
 
     def run(self):
         self.app.run(host='0.0.0.0', port=6868)
