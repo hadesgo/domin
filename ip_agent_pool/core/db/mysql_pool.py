@@ -13,8 +13,10 @@ class Mysql(object):
         self.db = pymysql.connect(host="139.224.54.100", user="root", password="123", database="HADES")
         self.cursor = self.db.cursor()
         self.lock = threading.Lock()
+        self.db.ping()
 
     def __del__(self):
+        self.cursor.close()
         self.db.close()
 
     def insert(self, ipItem):
