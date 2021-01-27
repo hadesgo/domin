@@ -7,8 +7,6 @@ from ip_agent_pool.ip_model import IpItem
 
 
 class Mysql(object):
-    global G_MUTEX
-
     def __init__(self):
         self.db = pymysql.connect(host="139.224.54.100", user="root", password="123", database="HADES")
         self.cursor = self.db.cursor()

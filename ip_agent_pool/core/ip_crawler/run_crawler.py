@@ -10,7 +10,7 @@ import time
 
 from ip_agent_pool.settings import *
 from ip_agent_pool.core.ip_check.httpbin_check import check_proxy
-from ip_agent_pool.core.db.mysql_pool import Mysql
+from db.mysql_pool import Mysql
 from ip_agent_pool.tool.log import logger
 
 
@@ -23,7 +23,7 @@ class RunCrawler(object):
         instances = []
         for path in PROXIES_CRAWLER:
             module_name, cls_name = path.rsplit('.', maxsplit=1)
-            module = importlib.import_module('ip_agent_pool.core.'+module_name)
+            module = importlib.import_module('ip_agent_pool.core.' + module_name)
             cls = getattr(module, cls_name)
             instances.append(cls())
 
@@ -32,7 +32,7 @@ class RunCrawler(object):
     def run(self):
         crawler = self._auto_import_instances()
         for cra in crawler:
-            self.pool.apply_async(self.__run_one_crawler, args=(cra, ))
+            self.pool.apply_async(self.__run_one_crawler, args=(cra,))
         self.pool.join()
 
     def __run_one_crawler(self, cra):

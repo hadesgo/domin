@@ -4,7 +4,7 @@
 from flask import Flask
 from flask import request
 
-from ip_agent_pool.core.db.mysql_pool import Mysql
+from db.mysql_pool import Mysql
 
 
 class ProxyApi(object):

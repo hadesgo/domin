@@ -3,9 +3,9 @@
 
 import gevent.monkey
 
+from db.mysql_pool import Mysql
 from ip_agent_pool import settings
 from queue import Queue
-from ip_agent_pool.core.db.mysql_pool import *
 from ip_agent_pool.core.ip_check.httpbin_check import check_proxy
 from ip_agent_pool.tool.log import logger
 import schedule
