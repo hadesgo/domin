@@ -1,9 +1,5 @@
+# !/usr/bin/python3
 # -*- coding: utf-8 -*-
-"""
-@File    :   setting.py
-@Time    :   2020/11/14 21:12:50
-@Author  :   hades-li
-"""
 # 日志配置信息
 import logging
 

@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 import socket
 import queue
 import threading
@@ -112,7 +114,7 @@ class PortWorker(object):
 
     def get_ip_by_name(self, domain):
         try:
-            return socket.gethostname()
+            return socket.gethostbyname(domain)
         except Exception as e:
             print("%s:%s" % (domain, e))
 
@@ -124,12 +126,13 @@ class PortWorker(object):
         thread_num = 100
         threads = []
         top = 1000
-        ip = "192.168.31.159"
+        url = "www.baidu.com"
+        ip = port_scanner.get_ip_by_name(url)
         port_list = port_scanner.get_port_lists(top=top)
         for port in port_list:
             port_queue.put(port)
         for t in range(thread_num):
-            threads.append(port_scanner.PortScanner(port_queue, ip, timeout=3))
+            threads.append(port_scanner.PortScanner(port_queue, '170.0.154.119', timeout=3))
         for thread in threads:
             thread.start()
         for thread in threads:

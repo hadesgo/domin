@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 import requests
 import re
 import js2py
@@ -53,8 +55,3 @@ class Ip66Crawler(BaseCrawler):
 
         return respsone.content.decode('gbk')
 
-
-if __name__ == '__main__':
-    spider = ProxylistplusCrawler()
-    for proxy in spider.get_ipitem():
-        print(proxy)

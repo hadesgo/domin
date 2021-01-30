@@ -1,9 +1,11 @@
-import time
-import pymysql
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 import random
 import threading
-from ip_agent_pool.tool.log import logger
+import pymysql
 from ip_agent_pool.ip_model import IpItem
+from ip_agent_pool.tool.log import logger
+from Website_information.web_item import DomainItem
 
 
 class Mysql(object):
@@ -35,6 +37,44 @@ class Mysql(object):
             logger.info("插入新的代理:{}".format(ipItem))
         else:
             logger.warning("已经存在的代理:{}".format(ipItem))
+
+    def web_insert(self, domainitem):
+        count = 1
+        sql = "INSERT INTO Website_Information(domain_name, \
+              ip, area, registrar_domain_id, registrar_whois_server, registrar_url, updated_date, creation_date, \
+              registry_expiry_date, registrar, registrar_iana_id, registrar_abuse_contact_email, \
+              registrar_abuse_contact_phone) \
+              VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" % \
+              (domainitem.domain_name, domainitem.ip, domainitem.area, domainitem.registrar_domain_id,
+               domainitem.registrar_whois_server, domainitem.registrar_url, domainitem.updated_date,
+               domainitem.creation_date, domainitem.registry_expiry_date, domainitem.registrar,
+               domainitem.registrar_iana_id, domainitem.registrar_abuse_contact_email,
+               domainitem.registrar_abuse_contact_phone)
+        try:
+            self.lock.acquire()
+            self.cursor.execute(sql)
+            self.db.commit()
+            self.lock.release()
+        except:
+            self.db.rollback()
+            count = 0
+        if count == 1:
+            logger.info("插入新的网站信息:{}".format(domainitem))
+        else:
+            logger.warning("已经存在的网站信息:{}".format(domainitem))
+
+    def find_web(self, url):
+        sql = "SELECT * FROM Website_Information WHERE domain_name = '%s' " % \
+            url
+        try:
+            self.cursor.execute(sql)
+            results = self.cursor.fetchall()
+            for item in results:
+                domain = DomainItem(item[0], item[1], item[2], item[3], item[4], item[5], item[6], item[7], item[8],
+                                item[9], item[10], item[11], item[12])
+                yield domain
+        except:
+            print("Error: unable to fetch data")
 
     def update_port(self, ipItem):
         sql = "UPDATE IP_Pool SET IP_Port = '%s' where IP_Address = '%s' " % \
@@ -110,7 +150,7 @@ class Mysql(object):
             print("Error: unable to fetch data")
 
     def random(self, protocol):
-        sql = "SELECT * FROM IP_Pool WHERE Ip_Protocol = '%s' " % \
+        sql = "SELECT * FROM IP_Pool WHERE Ip_Protocol = '%s' or Ip_Protocol = 2" % \
               protocol
         try:
             self.cursor.execute(sql)
@@ -119,12 +159,3 @@ class Mysql(object):
             return item
         except:
             print("Error: don't get a proxy")
-
-
-if __name__ == '__main__':
-    mysql = Mysql()
-    ip = IpItem('91.224.182.49', port=8080, score=49)
-    print(ip)
-    for ip in mysql.find_all():
-        print(ip)
-    print(mysql.random(0))

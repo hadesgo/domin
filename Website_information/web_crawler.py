@@ -1,27 +1,34 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
 import requests
 import re
 from ip_agent_pool.tool.http import getuser_agent
+import web_item
+import socket
+from db.mysql_pool import Mysql
 
 
 class WebCrawler(object):
-    def __init__(self, url, ip):
-        self.url = url
-        self.ip = ip
+    def __init__(self, url):
+        self.url = "http://whois.chinaz.com/" + url
+        self.mysql = Mysql()
+        self.ipItem = self.mysql.random(0)
+        self.ip = {'http': self.ipItem.ip + ':' + self.ipItem.port}
+        self.head = getuser_agent()
 
-    def askUrl(self):
-        head = getuser_agent()
+    def ask_url(self):
         html = ""
         try:
-            response = requests.get(self.url, headers=head, proxies=self.ip, timeout=1)
+            response = requests.get(self.url, headers=self.head, proxies=self.ip, timeout=1)
             response.encoding = 'utf-8'
             html = response.text
         except Exception as e:
             print(e)
         return html
 
-    def getData(self):
-        html = self.askUrl()
+    def get_data(self):
+        html = self.ask_url()
         soup = BeautifulSoup(html, "html.parser")
         item = soup.find_all('p', class_="MoreInfo")
         item = str(item)
@@ -47,3 +54,15 @@ class WebCrawler(object):
         registrar_iana_id = re.findall(find_registrar_iana_id, item)[0]
         registrar_abuse_contact_email = re.findall(find_registrar_abuse_contact_email, item)[0]
         registrar_abuse_contact_phone = re.findall(find_registrar_abuse_contact_phone, item)[0]
+        ip = socket.gethostbyname(self.url)
+        item = web_item.DomainItem(domain_name, ip, registrar_domain_id, registrar_whois_server, registrar_url,
+                                   updated_date, creation_date, registry_expiry_date, registrar, registrar_iana_id,
+                                   registrar_abuse_contact_email, registrar_abuse_contact_phone)
+        yield item
+
+    def save_data(self):
+        web_item = self.get_data()
+        self.mysql.web_insert(web_item)
+
+    def run(self):
+        self.save_data()

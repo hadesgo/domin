@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 import requests
 from lxml import etree
 from ip_agent_pool.ip_model import *
@@ -40,15 +42,3 @@ class BaseCrawler(object):
             ipitem = self.get_ip_from_page(page)
             yield from ipitem
 
-
-if __name__ == '__main__':
-    config = {
-        'urls': ['http://www.ip3366.net/free/?stype={}&page={}'.format(i, j) for j in range(1, 10) for i in
-                 range(1, 4, 2)],
-        'group_xpath': '//*[@id="list"]/table/tbody/tr',
-        'detail_xpath': {'ip': './td[1]/text()', 'port': './td[2]/text()', 'area': './td[5]/text()'}
-    }
-    # 创建通用代理对象
-    base_spider = BaseCrawler(**config)
-    for proxy in base_spider.get_ipitem():
-        print(proxy)

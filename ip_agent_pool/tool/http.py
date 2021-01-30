@@ -1,10 +1,7 @@
 # tool/http.py
+# !/usr/bin/python3
 # -*- coding: utf-8 -*-
-"""
-@File    :   http.py
-@Time    :   2020/11/15 16:50:55
-@Author  :   hades-li
-"""
+
 import random
 
 user_agents = [
@@ -50,8 +47,3 @@ def getuser_agent():
     return {
         'User-Agent': random.choice(user_agents),
     }
-
-
-if __name__ == '__main__':
-    print(getuser_agent())
-    print(getuser_agent())

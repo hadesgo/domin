@@ -1,3 +1,5 @@
+# !/usr/bin/python3
+# -*- coding: utf-8 -*-
 from multiprocessing import Process
 from ip_agent_pool.core.ip_crawler.run_crawler import RunCrawler
 from ip_agent_pool.core.ip_api import ProxyApi

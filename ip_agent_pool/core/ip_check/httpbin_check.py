@@ -1,14 +1,9 @@
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-"""
-@File    :   httpbin_check.py
-@Time    :   2020/11/15 20:01:01
-@Author  :   hades-li
-"""
+
 import json
 import time
-
 import requests
-
 from ip_agent_pool.ip_model import *
 from ip_agent_pool.settings import *
 from ip_agent_pool.tool.http import *
@@ -87,8 +82,3 @@ def check_http_ip(proxies, isHttp=True):
             return False, nick_type, speed
     except Exception as e:
         return False, nick_type, speed
-
-
-if __name__ == '__main__':
-    proxy = IpItem('103.115.14.41', '80')
-    print(check_proxy(proxy))

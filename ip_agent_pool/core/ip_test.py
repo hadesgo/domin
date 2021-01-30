@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import gevent.monkey
-
 from db.mysql_pool import Mysql
 from ip_agent_pool import settings
 from queue import Queue
@@ -70,7 +69,3 @@ class ProxyTester(object):
         while True:
             schedule.run_pending()
             time.sleep(1)
-
-
-if __name__ == '__main__':
-    ProxyTester.start()

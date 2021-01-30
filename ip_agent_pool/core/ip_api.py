@@ -29,7 +29,3 @@ class ProxyApi(object):
     def start(cls):
         proxy_api = cls()
         proxy_api.run()
-
-
-if __name__ == '__main__':
-    ProxyApi.start()

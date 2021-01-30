@@ -1,9 +1,5 @@
+# !/usr/bin/python3
 # -*- coding: utf-8 -*-
-"""
-@File    :   ip_model.py
-@Time    :   2020/11/14 20:51:16
-@Author  :   hades-li
-"""
 from ip_agent_pool.settings import MAX_SCORE
 
 

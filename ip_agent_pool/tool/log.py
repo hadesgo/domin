@@ -1,10 +1,6 @@
 # tool/log.py
+# !/usr/bin/python3
 # -*- coding: utf-8 -*-
-"""
-@File    :   log.py
-@Time    :   2020/11/15 16:03:28
-@Author  :   hades-li
-"""
 import sys
 
 # 导入配置文件
