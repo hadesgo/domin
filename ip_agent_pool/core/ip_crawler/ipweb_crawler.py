@@ -54,4 +54,3 @@ class Ip66Crawler(BaseCrawler):
             respsone = session.get(url)
 
         return respsone.content.decode('gbk')
-

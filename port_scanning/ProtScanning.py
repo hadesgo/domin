@@ -6,8 +6,16 @@ import threading
 import sys
 import time
 
+G_OPEN_PORT_LIST = []
+
 
 class PortWorker(object):
+    def __init__(self, url, top):
+        global G_OPEN_PORT_LIST
+        G_OPEN_PORT_LIST = []
+        self.url = url
+        self.top = top
+
     class PortScanner(threading.Thread):
         def __init__(self, port_queue, ip, timeout=3):
             threading.Thread.__init__(self)
@@ -31,6 +39,7 @@ class PortWorker(object):
                 result_code = conn.connect_ex((self.ip, port))
                 if result_code == 0:
                     sys.stdout.write(OPEN_MSG % port)
+                    G_OPEN_PORT_LIST.append(port)
             except Exception as e:
                 print(e)
             finally:
@@ -118,28 +127,29 @@ class PortWorker(object):
         except Exception as e:
             print("%s:%s" % (domain, e))
 
-    @classmethod
-    def start(cls):
+    def run(self):
         start_time = time.time()
-        port_scanner = PortWorker()
         port_queue = queue.Queue()
         thread_num = 100
         threads = []
-        top = 1000
-        url = "www.baidu.com"
-        ip = port_scanner.get_ip_by_name(url)
-        port_list = port_scanner.get_port_lists(top=top)
+        top = self.top
+        url = self.url
+        ip = self.get_ip_by_name(url)
+        port_list = self.get_port_lists(top=top)
         for port in port_list:
             port_queue.put(port)
         for t in range(thread_num):
-            threads.append(port_scanner.PortScanner(port_queue, '170.0.154.119', timeout=3))
+            threads.append(self.PortScanner(port_queue, ip, timeout=3))
         for thread in threads:
             thread.start()
         for thread in threads:
             thread.join()
         end_time = time.time()
         print("[end time] %3ss" % (end_time - start_time,))
+        return G_OPEN_PORT_LIST
 
 
 if __name__ == '__main__':
-    PortWorker.start()
+    portworker = PortWorker("www.kugou.com", 1000)
+    port_list = portworker.run()
+    print(port_list)
