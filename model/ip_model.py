@@ -1,6 +1,6 @@
 # !/usr/bin/python3
 # -*- coding: utf-8 -*-
-from ip_agent_pool.settings import MAX_SCORE
+from settings import MAX_SCORE
 
 
 # IP代理模型类，用于封装代理IP的各种信息

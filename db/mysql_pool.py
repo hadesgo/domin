@@ -3,9 +3,9 @@
 import random
 import threading
 import pymysql
-from ip_agent_pool.ip_model import IpItem
-from ip_agent_pool.tool.log import logger
-from Website_information.web_item import DomainItem
+from model.ip_model import IpItem
+from tool.log import logger
+from model.web_item import DomainItem
 
 
 class Mysql(object):

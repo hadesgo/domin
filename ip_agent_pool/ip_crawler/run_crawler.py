@@ -8,10 +8,10 @@ import importlib
 import schedule
 import time
 
-from ip_agent_pool.settings import *
-from ip_agent_pool.core.ip_check.httpbin_check import check_proxy
+from settings import *
+from ip_agent_pool.ip_check.httpbin_check import check_proxy
 from db.mysql_pool import Mysql
-from ip_agent_pool.tool.log import logger
+from tool.log import logger
 
 
 class RunCrawler(object):
@@ -23,7 +23,7 @@ class RunCrawler(object):
         instances = []
         for path in PROXIES_CRAWLER:
             module_name, cls_name = path.rsplit('.', maxsplit=1)
-            module = importlib.import_module('ip_agent_pool.core.' + module_name)
+            module = importlib.import_module('ip_agent_pool.' + module_name)
             cls = getattr(module, cls_name)
             instances.append(cls())
 

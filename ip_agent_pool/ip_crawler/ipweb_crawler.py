@@ -1,12 +1,10 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-import requests
 import re
 import js2py
 
-from ip_agent_pool.core.ip_crawler.base_crawler import *
-from ip_agent_pool.tool.http import *
-from ip_agent_pool.ip_model import *
+from ip_agent_pool.ip_crawler.base_crawler import *
+from tool.http import *
 
 
 class Ip3366Crawler(BaseCrawler):

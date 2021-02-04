@@ -3,10 +3,10 @@
 
 import gevent.monkey
 from db.mysql_pool import Mysql
-from ip_agent_pool import settings
+import settings
 from queue import Queue
-from ip_agent_pool.core.ip_check.httpbin_check import check_proxy
-from ip_agent_pool.tool.log import logger
+from ip_agent_pool.ip_check.httpbin_check import check_proxy
+from tool.log import logger
 import schedule
 import time
 from gevent.pool import Pool

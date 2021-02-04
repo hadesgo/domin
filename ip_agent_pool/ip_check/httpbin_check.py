@@ -4,10 +4,9 @@
 import json
 import time
 import requests
-from ip_agent_pool.ip_model import *
-from ip_agent_pool.settings import *
-from ip_agent_pool.tool.http import *
-from ip_agent_pool.tool.log import logger
+from settings import *
+from tool.http import *
+from tool.log import logger
 
 
 def check_proxy(iPitem):

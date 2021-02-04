@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 import requests
 from lxml import etree
-from ip_agent_pool.ip_model import *
-from ip_agent_pool.tool.http import getuser_agent
+from model.ip_model import *
+from tool.http import getuser_agent
 
 
 class BaseCrawler(object):

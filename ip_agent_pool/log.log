@@ -1,0 +1,35 @@
+2021-02-04 13:39:47 _internal.py [line:113] INFO:  * Running on http://0.0.0.0:6868/ (Press CTRL+C to quit)
+2021-02-04 13:39:50 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '14.97.2.106', 'port': 80, 'protocol': 0, 'nick_type': 0, 'speed': 1.45, 'area': '高匿_印度', 'score': 50}
+2021-02-04 13:40:00 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '181.143.17.35', 'port': 3128, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_哥伦比亚', 'score': 45}
+2021-02-04 13:40:01 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '116.68.254.94', 'port': 8089, 'protocol': 0, 'nick_type': 2, 'speed': 3.62, 'area': '印度尼西亚', 'score': 50}
+2021-02-04 13:40:07 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '103.80.83.48', 'port': 3127, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '亚太地区', 'score': 43}
+2021-02-04 13:40:07 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '115.221.241.140', 'port': 9999, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '浙江省温州市', 'score': 43}
+2021-02-04 13:40:07 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '183.89.198.132', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_泰国', 'score': 48}
+2021-02-04 13:40:07 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '186.91.187.166', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '委内瑞拉', 'score': 48}
+2021-02-04 13:40:07 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '186.91.91.90', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_委内瑞拉', 'score': 46}
+2021-02-04 13:40:10 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '154.72.197.106', 'port': 42113, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '非洲', 'score': 48}
+2021-02-04 13:40:11 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 49}
+2021-02-04 13:40:12 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '191.101.39.118', 'port': 80, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '柬埔寨', 'score': 48}
+2021-02-04 13:40:14 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '116.68.249.228', 'port': 8089, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '印度尼西亚', 'score': 49}
+2021-02-04 13:40:20 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '190.207.39.168', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_委内瑞拉', 'score': 48}
+2021-02-04 13:41:09 _internal.py [line:113] INFO:  * Running on http://0.0.0.0:6868/ (Press CTRL+C to quit)
+2021-02-04 13:41:11 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '14.97.2.106', 'port': 80, 'protocol': 0, 'nick_type': 0, 'speed': 1.37, 'area': '高匿_印度', 'score': 50}
+2021-02-04 13:41:19 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '181.143.17.35', 'port': 3128, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_哥伦比亚', 'score': 44}
+2021-02-04 13:41:23 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '186.91.187.166', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '委内瑞拉', 'score': 47}
+2021-02-04 13:41:27 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '116.68.254.94', 'port': 8089, 'protocol': 0, 'nick_type': 2, 'speed': 14.02, 'area': '印度尼西亚', 'score': 50}
+2021-02-04 13:41:29 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '103.80.83.48', 'port': 3127, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '亚太地区', 'score': 42}
+2021-02-04 13:41:29 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '116.68.249.228', 'port': 8089, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '印度尼西亚', 'score': 48}
+2021-02-04 13:41:29 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '115.221.241.140', 'port': 9999, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '浙江省温州市', 'score': 42}
+2021-02-04 13:41:29 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '154.72.197.106', 'port': 42113, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '非洲', 'score': 47}
+2021-02-04 13:41:29 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '183.89.198.132', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '高匿_泰国', 'score': 47}
+2021-02-04 13:41:29 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '186.91.91.90', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_委内瑞拉', 'score': 45}
+2021-02-04 13:41:30 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '195.154.173.28', 'port': 80, 'protocol': 0, 'nick_type': 0, 'speed': 0.66, 'area': '法国', 'score': 50}
+2021-02-04 13:41:31 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '187.111.160.8', 'port': 42579, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '巴西', 'score': 48}
+2021-02-04 13:41:34 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '191.101.39.118', 'port': 80, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '柬埔寨', 'score': 47}
+2021-02-04 13:41:39 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '190.207.39.168', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': 'SSL高匿_委内瑞拉', 'score': 47}
+2021-02-04 13:41:45 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '78.111.97.180', 'port': 3140, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '土耳其', 'score': 44}
+2021-02-04 13:41:45 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '216.58.163.118', 'port': 80, 'protocol': 0, 'nick_type': 0, 'speed': 5.56, 'area': '美国', 'score': 50}
+2021-02-04 13:41:47 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '191.243.217.1', 'port': 53281, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '拉美地区', 'score': 48}
+2021-02-04 13:41:49 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '197.210.164.66', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '尼日利亚', 'score': 48}
+2021-02-04 13:41:51 mysql_pool.py [line:128] INFO: 修改代理成功:{'ip': '91.224.182.49', 'port': 8080, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': '俄罗斯', 'score': 41}
+2021-02-04 13:45:00 mysql_pool.py [line:37] INFO: 插入新的代理:{'ip': '154.113.19.30', 'port': '8080', 'protocol': 0, 'nick_type': 2, 'speed': 5.39, 'area': '非洲', 'score': 50}

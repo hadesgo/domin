@@ -6,9 +6,9 @@ import socket
 import requests
 from bs4 import BeautifulSoup
 
-from Website_information import web_item
+from model import web_item
 from db.mysql_pool import Mysql
-from ip_agent_pool.tool.http import getuser_agent
+from tool.http import getuser_agent
 
 
 class WebCrawler(object):

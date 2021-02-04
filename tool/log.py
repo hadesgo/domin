@@ -4,7 +4,7 @@
 import sys
 
 # 导入配置文件
-from ip_agent_pool.settings import *
+from settings import *
 
 
 class Logger(object):
