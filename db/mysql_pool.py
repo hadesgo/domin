@@ -25,6 +25,7 @@ class Mysql(object):
               (ipItem.ip, ipItem.port, ipItem.protocol, ipItem.nick_type, ipItem.speed, ipItem.area, ipItem.score)
         try:
             self.lock.acquire()
+            self.db.ping(reconnect=True)
             cursor = self.db.cursor()
             cursor.execute(sql)
             self.db.commit()
@@ -52,6 +53,7 @@ class Mysql(object):
                domainitem.registrar_abuse_contact_phone)
         try:
             self.lock.acquire()
+            self.db.ping(reconnect=True)
             cursor = self.db.cursor()
             cursor.execute(sql)
             self.db.commit()
@@ -85,6 +87,7 @@ class Mysql(object):
               (ipItem.port, ipItem.ip)
         try:
             self.lock.acquire()
+            self.db.ping(reconnect=True)
             cursor = self.db.cursor()
             cursor.execute(sql)
             self.db.commit()
@@ -156,6 +159,7 @@ class Mysql(object):
               ipItem.ip
         try:
             self.lock.acquire()
+            self.db.ping(reconnect=True)
             cursor = self.db.cursor()
             cursor.execute(sql)
             self.db.commit()
