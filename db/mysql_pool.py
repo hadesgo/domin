@@ -11,12 +11,10 @@ from model.web_item import DomainItem
 class Mysql(object):
     def __init__(self):
         self.db = pymysql.connect(host="139.224.54.100", user="root", password="123", database="HADES")
-        self.cursor = self.db.cursor()
         self.lock = threading.Lock()
         self.db.ping()
 
     def __del__(self):
-        self.cursor.close()
         self.db.close()
 
     def insert(self, ipItem):
@@ -27,9 +25,11 @@ class Mysql(object):
               (ipItem.ip, ipItem.port, ipItem.protocol, ipItem.nick_type, ipItem.speed, ipItem.area, ipItem.score)
         try:
             self.lock.acquire()
-            self.cursor.execute(sql)
+            cursor = self.db.cursor()
+            cursor.execute(sql)
             self.db.commit()
             self.lock.release()
+            cursor.close()
         except:
             self.db.rollback()
             count = 0
@@ -52,9 +52,11 @@ class Mysql(object):
                domainitem.registrar_abuse_contact_phone)
         try:
             self.lock.acquire()
-            self.cursor.execute(sql)
+            cursor = self.db.cursor()
+            cursor.execute(sql)
             self.db.commit()
             self.lock.release()
+            cursor.close()
         except:
             self.db.rollback()
             count = 0
@@ -67,12 +69,14 @@ class Mysql(object):
         sql = "SELECT * FROM Website_Information WHERE domain_name = '%s' " % \
               url
         try:
-            self.cursor.execute(sql)
-            results = self.cursor.fetchall()
+            cursor = self.db.cursor()
+            cursor.execute(sql)
+            results = cursor.fetchall()
             for item in results:
                 domain = DomainItem(item[0], item[1], item[2], item[3], item[4], item[5], item[6], item[7], item[8],
                                     item[9], item[10], item[11], item[12])
                 return domain
+            cursor.close()
         except:
             print("Error: unable to fetch data")
 
@@ -80,8 +84,12 @@ class Mysql(object):
         sql = "UPDATE IP_Pool SET IP_Port = '%s' where IP_Address = '%s' " % \
               (ipItem.port, ipItem.ip)
         try:
-            self.cursor.execute(sql)
+            self.lock.acquire()
+            cursor = self.db.cursor()
+            cursor.execute(sql)
             self.db.commit()
+            self.lock.release()
+            cursor.close()
         except:
             self.db.rollback()
 
@@ -89,8 +97,12 @@ class Mysql(object):
         sql = "UPDATE IP_Pool SET IP_Protocol = '%s' where IP_Address = '%s' " % \
               (ipItem.protocol, ipItem.ip)
         try:
-            self.cursor.execute(sql)
+            self.lock.acquire()
+            cursor = self.db.cursor()
+            cursor.execute(sql)
             self.db.commit()
+            self.lock.release()
+            cursor.close()
         except:
             self.db.rollback()
 
@@ -98,8 +110,12 @@ class Mysql(object):
         sql = "UPDATE IP_Pool SET IP_Nick = '%s' where IP_Address = '%s' " % \
               (ipItem.nick_type, ipItem.ip)
         try:
-            self.cursor.execute(sql)
+            self.lock.acquire()
+            cursor = self.db.cursor()
+            cursor.execute(sql)
             self.db.commit()
+            self.lock.release()
+            cursor.close()
         except:
             self.db.rollback()
 
@@ -107,8 +123,12 @@ class Mysql(object):
         sql = "UPDATE IP_Pool SET IP_Speed = '%s' where IP_Address = '%s' " % \
               (ipItem.speed, ipItem.ip)
         try:
-            self.cursor.execute(sql)
+            self.lock.acquire()
+            cursor = self.db.cursor()
+            cursor.execute(sql)
             self.db.commit()
+            self.lock.release()
+            cursor.close()
         except:
             self.db.rollback()
 
@@ -118,9 +138,11 @@ class Mysql(object):
               (ipItem.score, ipItem.ip)
         try:
             self.lock.acquire()
-            self.cursor.execute(sql)
+            cursor = self.db.cursor()
+            cursor.execute(sql)
             self.db.commit()
             self.lock.release()
+            cursor.close()
         except:
             self.db.rollback()
             count = 0
@@ -133,19 +155,25 @@ class Mysql(object):
         sql = "DELETE FROM IP_Pool WHERE IP_Address = '%s' " % \
               ipItem.ip
         try:
-            self.cursor.execute(sql)
+            self.lock.acquire()
+            cursor = self.db.cursor()
+            cursor.execute(sql)
             self.db.commit()
+            self.lock.release()
+            cursor.close()
         except:
             self.db.rollback()
 
     def find_all(self):
         sql = "SELECT * FROM IP_Pool"
         try:
-            self.cursor.execute(sql)
-            results = self.cursor.fetchall()
+            cursor = self.db.cursor()
+            cursor.execute(sql)
+            results = cursor.fetchall()
             for item in results:
                 ip = IpItem(item[0], item[1], item[2], item[3], item[4], item[5], item[6])
                 yield ip
+            cursor.close()
         except:
             print("Error: unable to fetch data")
 
@@ -153,9 +181,11 @@ class Mysql(object):
         sql = "SELECT * FROM IP_Pool WHERE Ip_Protocol = '%s' or Ip_Protocol = 2" % \
               protocol
         try:
-            self.cursor.execute(sql)
-            results = self.cursor.fetchall()
+            cursor = self.db.cursor()
+            cursor.execute(sql)
+            results = cursor.fetchall()
             item = random.choice(results)
+            cursor.close()
             return item
         except:
             print("Error: don't get a proxy")
